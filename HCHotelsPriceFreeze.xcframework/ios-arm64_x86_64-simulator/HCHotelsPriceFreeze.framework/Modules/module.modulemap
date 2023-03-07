@@ -1,0 +1,11 @@
+framework module HCHotelsPriceFreeze {
+  umbrella header "HCHotelsPriceFreeze.h"
+
+  export *
+  module * { export * }
+}
+
+module HCHotelsPriceFreeze.Swift {
+  header "HCHotelsPriceFreeze-Swift.h"
+  requires objc
+}
