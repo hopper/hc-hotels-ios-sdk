@@ -1,1 +1,1 @@
-# Hopper Hotel Price Freeze SDK for iOS
+# Hopper Cloud Hotel Price Freeze SDK for iOS
