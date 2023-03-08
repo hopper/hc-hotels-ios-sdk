@@ -1,9 +1,9 @@
 # Hopper Hotel Price Freeze SDK for iOS
 NOTE: This initial version of the SDK is an implementation stub only. It provides mock functionality for the purposes of beginning to integrate with the SDK.
 
-This repo contains the HCHotelsPriceFreeze framework which can be added to your iOS project via CocoaPods.
+This repo contains the HCHotelsPriceFreeze framework which can be added to your iOS project via CocoaPods or manually.
 
-## Installation
+## CocoaPods Installation
 1. [Install CocoaPods](https://guides.cocoapods.org/using/getting-started.html#installation) on your Mac
 2. Open Terminal
 3. In Terminal navigate to your Xcode project root directory, where your `.xcodeproj` file lives, and type: `pod init`
@@ -16,6 +16,11 @@ This repo contains the HCHotelsPriceFreeze framework which can be added to your 
 
 If you're having issues installing CocoaPods, or for a more detailed walkthrough of installing CocoaPods, check out this [Stack Overflow post](https://stackoverflow.com/questions/20755044/how-do-i-install-cocoapods).
 
+## Manual Installation
+1. Download this repo 
+2. Unzip the zip file
+3. Drag the HCHotelsPriceFreeze.xcframework into your Xcode project
+
 ## Usage
 NOTE: This initial version of the SDK is an implementation stub only. It provides mock functionality for the purposes of beginning to integrate with the SDK.
 
@@ -23,9 +28,7 @@ Below is a summary of usage, see each class and method for additional documentat
 
 ### Setup
 
-**TODO** revise this after making changes to init/models/etc.
-
-A single instance of HCHotelsPriceFreezeSDK should be created for your entire app and passed to your app as an @EnvironmentObject.  For example:
+A single instance of HCHotelsPriceFreezeSDK should be created for your entire app as a `@StateObject` and passed to your app as an `@EnvironmentObject`.  For example:
 
 ```swift
 import HCHotelsPriceFreeze
@@ -33,9 +36,7 @@ import SwiftUI
 
 @main
 struct MyApp: App {
-    @StateObject var sdk = HCHotelsPriceFreezeSDK(userId: "testUserId",
-                                                  currency: "USD",
-                                                  locale: "en")
+    @StateObject var sdk = HCHotelsPriceFreezeSDK(token: "your_hopper_token)
                                                   
     var body: some Scene {
         WindowGroup {
@@ -55,47 +56,53 @@ Let's say you have a SwiftUI Button that represents your Price Freeze button:
 Button("Price Freeze", action: {}) // This is your SwiftUI Button
 ```
 
-Using HCHotelsPriceFreeze you can wrap it with `HCPriceFreezeButtonWrapper`:
+You can wrap your button with `HCPriceFreezeButtonWrapper`:
 
 ```swift
 // Within your SwiftUI View
-HCPriceFreezeButtonWrapper(room: room,
+HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                            purchaseCallback: {})
-{
+{ offer in
     Button("Price Freeze", action: {}) // This is your SwiftUI Button
 }
 ```
 
-You can choose to display or hide buttons by checking the `HCPriceFreezeOffer` for a `HCRoom`.
+The `PriceFreezeButtonWrapper` will handle fetching, caching, expiring, managing offer state, and will provide you with the current `HCPriceFreezeOffer` to render how you wish.
 
-An `HCPriceFreezeOffer` will be in one of a few possible states: (See the documentation on `HCPriceFreezeOffer` for more details on each of these)
-- Loading
-- Available
-- Unavailable
-- Error
+The `HCPriceFreezeOffer` will be in one of a few possible states:
+- loading
+- available
+- unavailable
+- error
 
-For example, if you only want to render your Button when there is an available offer:
+You can use this status to decide how/if to render your button, for example if you only want to render it when there is an available offer:
 
 ```swift
 // Within your SwiftUI View
-HCPriceFreezeButtonWrapper(room: room,
+HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                            purchaseCallback: {})
-{
-    
+{ offer in
+    if offer.state == .available {
+        Button("Price Freeze", action: {}) // This is your SwiftUI Button
+    }
 }
 ```
 
-If an offer for this room has not yet been calculated, the `HCPriceFreezeOffer` for an `HCRoom` will be in the **Loading** state. The `@Published var offers` property of `HCHotelsPriceFreezeSDK` will be updated automatically when the `HCPriceFreezeOffer` state changes, for example to **Available**.
+The wrapper will always and first provide the currently known `HCPriceFreezeOffer` state, and then again anytime the offer state changes.
 
-**NOTE: In this implementation stub, the provided `HCPriceFreezeOffer` will always be in the Available state**
+If an offer for this room has not yet been calculated, the `HCPriceFreezeOffer` will have a **loading** `HCPriceFreezeOfferState`. As soon as an `HCPriceFreezeOffer` is calculated the wrapper will provide the updated `HCPriceFreezeOffer`, for example an offer in the **available** `HCPriceFreezeOfferState`.
+
+If the offer has already been determined, you will have access to the calculated `HCPriceFreezeOffer`.
 
 ### Preloading Offers
 
 To calculate offers for rooms ahead of time, use the following method:
 
 ```swift
-sdk.cacheOffers(for: rooms) // Where `rooms` is an array of rooms to preload
+sdk.cacheOffers(for: rooms) // Where `rooms` is an array of `HCRoomDetails` to preload
 ```
+
+This will start calculating the offers in the background so the `PriceFreezeButtonWrapper` will have a result immediately or sooner. 
 
 **NOTE: In this implementation stub, this function has no effect**
 
@@ -110,7 +117,7 @@ By wrapping your SwiftUI Buttons in an `HCPriceFreezeButtonWrapper`, clicks will
 The `HCPriceFreezeButtonWrapper` accepts a `purchaseCallback` which allows you to take action depending on the outcome of the purchase flow.
 
 ```swift
-HCPriceFreezeButtonWrapper(room: room,
+HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                            purchaseCallback: { purchaseResult in
                                switch purchaseResult {
                                case .purchased: // The user purchased the price freeze
@@ -122,13 +129,9 @@ HCPriceFreezeButtonWrapper(room: room,
                                }
                            }
 )
-{
-    if sdk.offers[room]?.type == .signedFullOffer {
-        // Your SwiftUI Button
-        Button {
-        } label : {
-            Text("Price Freeze")
-        }
+{ offer in
+    if offer.state == .available {
+        Button("Price Freeze", action: {}) // This is your SwiftUI Button
     }
 }
 ```
