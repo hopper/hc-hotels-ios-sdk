@@ -40,10 +40,7 @@ public struct HCHotel : Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 @_Concurrency.MainActor(unsafe) public struct HCPriceFreezeButtonWrapper<Content> : SwiftUI.View where Content : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public let room: HCHotelsPriceFreeze.HCRoom
-  @_Concurrency.MainActor(unsafe) public let purchaseCallback: (HCHotelsPriceFreeze.HCPurchaseResult) -> Swift.Void
-  @_Concurrency.MainActor(unsafe) public let button: Content
-  @_Concurrency.MainActor(unsafe) public init(room: HCHotelsPriceFreeze.HCRoom, purchaseCallback: @escaping (HCHotelsPriceFreeze.HCPurchaseResult) -> Swift.Void, @SwiftUI.ViewBuilder button: () -> Content)
+  @_Concurrency.MainActor(unsafe) public init(room: HCHotelsPriceFreeze.HCRoom, purchaseCallback: @escaping (HCHotelsPriceFreeze.HCPurchaseResult) -> Swift.Void, @SwiftUI.ViewBuilder button: @escaping (HCHotelsPriceFreeze.HCPriceFreezeOffer) -> Content)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
@@ -56,14 +53,14 @@ public struct HCGuests : Swift.Codable {
 }
 @available(iOS 14.2, *)
 public class HCHotelsPriceFreezeSDK : Combine.ObservableObject {
-  @Combine.Published @_projectedValueProperty($offers) public var offers: [HCHotelsPriceFreeze.HCRoom : HCHotelsPriceFreeze.HCOfferResponse] {
+  @Combine.Published @_projectedValueProperty($offers) public var offers: [HCHotelsPriceFreeze.HCPriceFreezeOffer] {
     get
     @available(iOS 14.2, *)
     set
     @available(iOS 14.2, *)
     _modify
   }
-  public var $offers: Combine.Published<[HCHotelsPriceFreeze.HCRoom : HCHotelsPriceFreeze.HCOfferResponse]>.Publisher {
+  public var $offers: Combine.Published<[HCHotelsPriceFreeze.HCPriceFreezeOffer]>.Publisher {
     get
     @available(iOS 14.2, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
@@ -104,13 +101,34 @@ public struct HCOffer : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct HCPriceFreezeOffer : Swift.Codable {
+  public let state: HCHotelsPriceFreeze.HCPriceFreezeOfferState
+  public init(roomDetails: HCHotelsPriceFreeze.HCRoomDetails, state: HCHotelsPriceFreeze.HCPriceFreezeOfferState)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum HCPriceFreezeOfferState : Swift.String, Swift.Codable {
+  case loading
+  case available
+  case unavailable
+  case error
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct HCStayDates : Swift.Codable {
   public init(checkIn: Swift.String, checkOut: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct HCRoomDetails : Swift.Codable {
+  public init(userId: Swift.String? = nil, booking: HCHotelsPriceFreeze.HCBooking, hotel: HCHotelsPriceFreeze.HCHotel, room: HCHotelsPriceFreeze.HCRoom)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public struct HCOfferResponse : Swift.Codable {
-  public let type: HCHotelsPriceFreeze.HCOfferResponseType
   public init(offer: HCHotelsPriceFreeze.HCOffer, signature: Swift.String, type: HCHotelsPriceFreeze.HCOfferResponseType)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
@@ -129,6 +147,9 @@ public enum HCOfferResponseType : Swift.String, Swift.Codable {
 extension HCHotelsPriceFreeze.HCPurchaseResult : Swift.Equatable {}
 extension HCHotelsPriceFreeze.HCPurchaseResult : Swift.Hashable {}
 extension HCHotelsPriceFreeze.HCPurchaseResult : Swift.RawRepresentable {}
+extension HCHotelsPriceFreeze.HCPriceFreezeOfferState : Swift.Equatable {}
+extension HCHotelsPriceFreeze.HCPriceFreezeOfferState : Swift.Hashable {}
+extension HCHotelsPriceFreeze.HCPriceFreezeOfferState : Swift.RawRepresentable {}
 extension HCHotelsPriceFreeze.HCOfferResponseType : Swift.Equatable {}
 extension HCHotelsPriceFreeze.HCOfferResponseType : Swift.Hashable {}
 extension HCHotelsPriceFreeze.HCOfferResponseType : Swift.RawRepresentable {}

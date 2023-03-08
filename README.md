@@ -23,6 +23,8 @@ Below is a summary of usage, see each class and method for additional documentat
 
 ### Setup
 
+**TODO** revise this after making changes to init/models/etc.
+
 A single instance of HCHotelsPriceFreezeSDK should be created for your entire app and passed to your app as an @EnvironmentObject.  For example:
 
 ```swift
@@ -46,7 +48,46 @@ struct MyApp: App {
 
 ### Displaying Price Freeze Buttons
 
-**TODO**
+Let's say you have a SwiftUI Button that represents your Price Freeze button:
+
+```swift
+// Within your SwiftUI View
+Button("Price Freeze", action: {}) // This is your SwiftUI Button
+```
+
+Using HCHotelsPriceFreeze you can wrap it with `HCPriceFreezeButtonWrapper`:
+
+```swift
+// Within your SwiftUI View
+HCPriceFreezeButtonWrapper(room: room,
+                           purchaseCallback: {})
+{
+    Button("Price Freeze", action: {}) // This is your SwiftUI Button
+}
+```
+
+You can choose to display or hide buttons by checking the `HCPriceFreezeOffer` for a `HCRoom`.
+
+An `HCPriceFreezeOffer` will be in one of a few possible states: (See the documentation on `HCPriceFreezeOffer` for more details on each of these)
+- Loading
+- Available
+- Unavailable
+- Error
+
+For example, if you only want to render your Button when there is an available offer:
+
+```swift
+// Within your SwiftUI View
+HCPriceFreezeButtonWrapper(room: room,
+                           purchaseCallback: {})
+{
+    
+}
+```
+
+If an offer for this room has not yet been calculated, the `HCPriceFreezeOffer` for an `HCRoom` will be in the **Loading** state. The `@Published var offers` property of `HCHotelsPriceFreezeSDK` will be updated automatically when the `HCPriceFreezeOffer` state changes, for example to **Available**.
+
+**NOTE: In this implementation stub, the provided `HCPriceFreezeOffer` will always be in the Available state**
 
 ### Preloading Offers
 
@@ -56,7 +97,7 @@ To calculate offers for rooms ahead of time, use the following method:
 sdk.cacheOffers(for: rooms) // Where `rooms` is an array of rooms to preload
 ```
 
-**NOTE: In this implementation stub, this function has no effect
+**NOTE: In this implementation stub, this function has no effect**
 
 ### Purchasing Price Freezes
 
