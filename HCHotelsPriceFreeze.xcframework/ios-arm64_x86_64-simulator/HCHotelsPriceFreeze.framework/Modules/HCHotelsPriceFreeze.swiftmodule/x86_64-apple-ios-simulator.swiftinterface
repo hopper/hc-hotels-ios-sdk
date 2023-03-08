@@ -86,11 +86,12 @@ public class HCHotelsPriceFreezeSDK : Combine.ObservableObject {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
-public enum HCPriceFreezePurchaseResult : Swift.Codable {
+public enum HCPriceFreezePurchaseResult : Swift.Codable, Swift.Equatable {
   case purchased
   case cancelled
   case invalid
   case error(error: HCHotelsPriceFreeze.HCErrorInfo)
+  public static func == (lhs: HCHotelsPriceFreeze.HCPriceFreezePurchaseResult, rhs: HCHotelsPriceFreeze.HCPriceFreezePurchaseResult) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -120,11 +121,12 @@ public struct HCPriceFreezeOffer : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public enum HCPriceFreezeOfferState : Swift.Codable {
+public enum HCPriceFreezeOfferState : Swift.Codable, Swift.Equatable {
   case loading
   case available
   case unavailable
   case error(error: HCHotelsPriceFreeze.HCErrorInfo)
+  public static func == (lhs: HCHotelsPriceFreeze.HCPriceFreezeOfferState, rhs: HCHotelsPriceFreeze.HCPriceFreezeOfferState) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }

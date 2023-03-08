@@ -1942,6 +1942,40 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCPriceFreezePurchaseResult",
+                "printedName": "HCHotelsPriceFreeze.HCPriceFreezePurchaseResult",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCPriceFreezePurchaseResult",
+                "printedName": "HCHotelsPriceFreeze.HCPriceFreezePurchaseResult",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "HCHotelsPriceFreeze",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -2015,6 +2049,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -2942,6 +2983,40 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCPriceFreezeOfferState",
+                "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOfferState",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC10OfferStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCPriceFreezeOfferState",
+                "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOfferState",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC10OfferStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC10OfferStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC10OfferStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "HCHotelsPriceFreeze",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -3015,6 +3090,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -3589,13 +3671,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreeze\/Source\/HCHotelsPriceFreezeSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 653,
-      "length": 68,
-      "value": "\"https:\/\/sdk.staging.hopper.com\/api\/hotels\/v1.0\/price_freeze_offers\""
-    },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreeze\/Source\/Styles\/HCPriceFreezeButtonStyle.swift",
       "kind": "BooleanLiteral",
