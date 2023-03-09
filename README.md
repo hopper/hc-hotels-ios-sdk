@@ -8,7 +8,7 @@ This repo contains the HCHotelsPriceFreeze framework which can be added to your 
 2. Open Terminal
 3. In Terminal navigate to your Xcode project root directory, where your `.xcodeproj` file lives, and type: `pod init`
 4. Open the newly created Podfile
-5. In the Podfile below the line `use_frameworks!` add: `pod 'HCHotelsPriceFreezeSDK', :git => 'https://github.com/hopper/hc-hotels-ios-sdk.git'`
+5. In the Podfile below the line `use_frameworks!` add: `pod 'HCHotelsPriceFreezeSDK'`
 6. Save your Podfile
 7. In Terminal in your Xcode project root directory type: `pod install` for Intel machines, or `arch -x86_64 pod install` for Apple Silicon machines
 8. Close any open Xcode windows and open up the newly created `.xcworkspace` file
