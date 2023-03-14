@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SqWHRb8zw1CM3bgFf306XAy00io=
+		12t7R+mH+hE5U5jA4tm+XVXDtf0=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cdY3oNCsClMo9JxEi8JjW5cwQPE=
+		OcinLjRs0UD5i7D+cI0FdZ65NQY=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SqWHRb8zw1CM3bgFf306XAy00io=
+		12t7R+mH+hE5U5jA4tm+XVXDtf0=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Z1+CuBv3s7vpxOYcicpUwMjS7F4=
+		zP+YfkhbVOMvjhZtFNxAlK+1NCE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ot6rK+Ye1aeME4FKx65hwVvhoG01NDL5c8FY72NHUHg=
+			o6cBLcCYW2dQorw9yDWSy9eRcUwwWYNyFFXTpsQHFgQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KwM6ue25NXtop++t/I2/uxLKAAyjARFxRBG7akoImp4=
+			HpJkHSLTzN8dHZaiJ35qiAkhHez/+yIRpUO2iK/VkXQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ot6rK+Ye1aeME4FKx65hwVvhoG01NDL5c8FY72NHUHg=
+			o6cBLcCYW2dQorw9yDWSy9eRcUwwWYNyFFXTpsQHFgQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/nQl9NDFPN4bPMtC2L+RL4Db7Wtddr7A14legS9PBKc=
+			qgdIGbCLfMbEzb/DgW39WjlB9O23SPl4WPhE/UJzcM0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
