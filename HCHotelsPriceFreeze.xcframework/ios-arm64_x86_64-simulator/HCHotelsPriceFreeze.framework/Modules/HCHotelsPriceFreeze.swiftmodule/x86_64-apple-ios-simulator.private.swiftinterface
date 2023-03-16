@@ -7,6 +7,7 @@ import Foundation
 @_exported import HCHotelsPriceFreeze
 import Swift
 import SwiftUI
+import WebKit
 import _Concurrency
 import _StringProcessing
 public struct HCCheckInTime : Swift.Codable, Swift.Hashable {
@@ -67,22 +68,22 @@ public struct HCGuests : Swift.Codable, Swift.Hashable {
   public init(from decoder: Swift.Decoder) throws
 }
 @available(iOS 14.2, *)
-public class HCHotelsPriceFreezeSDK : Combine.ObservableObject {
-  @Combine.Published @_projectedValueProperty($offers) public var offers: [HCHotelsPriceFreeze.HCPriceFreezeOffer] {
+@_Concurrency.MainActor public class HCHotelsPriceFreezeSDK : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($priceFreezeOffers) @_Concurrency.MainActor public var priceFreezeOffers: [HCHotelsPriceFreeze.HCPriceFreezeOffer] {
     get
     @available(iOS 14.2, *)
     set
     @available(iOS 14.2, *)
     _modify
   }
-  public var $offers: Combine.Published<[HCHotelsPriceFreeze.HCPriceFreezeOffer]>.Publisher {
+  @_Concurrency.MainActor public var $priceFreezeOffers: Combine.Published<[HCHotelsPriceFreeze.HCPriceFreezeOffer]>.Publisher {
     get
     @available(iOS 14.2, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  public init(token: Swift.String)
-  public func cacheOffers(for rooms: [HCHotelsPriceFreeze.HCRoomDetails])
-  public func refreshCachedOffers()
+  @_Concurrency.MainActor public init(token: Swift.String)
+  @_Concurrency.MainActor public func cacheOffers(for rooms: [HCHotelsPriceFreeze.HCRoomDetails])
+  @_Concurrency.MainActor public func refreshCachedOffers()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -106,7 +107,7 @@ public struct HCAddress : Swift.Codable, Swift.Hashable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCRoom : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool?)
+  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool?, imageUrl: Swift.String, priceInclusive: Swift.String, extAttributes: Swift.Dictionary<Swift.String, Swift.String>)
   public static func == (lhs: HCHotelsPriceFreeze.HCRoom, rhs: HCHotelsPriceFreeze.HCRoom) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: Swift.Encoder) throws
@@ -154,3 +155,5 @@ public struct HCRoomDetails : Swift.Codable, Swift.Equatable, Swift.Hashable {
   }
   public init(from decoder: Swift.Decoder) throws
 }
+@available(iOS 14.2, *)
+extension HCHotelsPriceFreeze.HCHotelsPriceFreezeSDK : Swift.Sendable {}

@@ -28,7 +28,9 @@ Below is a summary of usage, see each class and method for additional documentat
 
 ### Setup
 
-A single instance of HCHotelsPriceFreezeSDK should be created for your entire app as a `@StateObject` and passed to your app as an `@EnvironmentObject`.  For example:
+You have options for how to integrate the SDK into your app.
+
+One option is to create a single instance of HCHotelsPriceFreezeSDK for your entire app as a `@StateObject` and pass the SDK into a base SwiftUI view as an `@EnvironmentObject`. For example:
 
 ```swift
 import HCHotelsPriceFreeze
@@ -46,6 +48,24 @@ struct MyApp: App {
     }
 }
 ```
+
+Another option is to create an instance of HCHotelsPriceFreezeSDK in your SwiftUI view and pass it into the `HCPriceFreezeButtonWrapper` as an `environmentObject`.
+
+```swift
+import HCHotelsPriceFreeze
+import SwiftUI
+
+struct ContentView: View {
+    @StateObject var sdk = HCHotelsPriceFreezeSDK(token: "my_hopper_token")
+    
+    var body: some View {
+        HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
+                                   purchaseCallback: { } )
+        { }
+        .environmentObject(sdk)
+    }
+}
+``` 
 
 ### Displaying Price Freeze Buttons
 
