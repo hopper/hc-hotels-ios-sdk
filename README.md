@@ -61,7 +61,9 @@ struct ContentView: View {
     var body: some View {
         HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                                    purchaseCallback: { } )
-        { }
+        { offer, onClick in
+            Button("Freeze Price") { } // This is your SwiftUI Button
+        }
         .environmentObject(sdk)
     }
 }
@@ -73,7 +75,7 @@ Let's say you have a SwiftUI Button that represents your Price Freeze button:
 
 ```swift
 // Within your SwiftUI View
-Button("Price Freeze", action: {}) // This is your SwiftUI Button
+Button("Price Freeze") { } // This is your SwiftUI Button
 ```
 
 You can wrap your button with `HCPriceFreezeButtonWrapper`:
@@ -82,8 +84,8 @@ You can wrap your button with `HCPriceFreezeButtonWrapper`:
 // Within your SwiftUI View
 HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                            purchaseCallback: {})
-{ offer in
-    Button("Price Freeze", action: {}) // This is your SwiftUI Button
+{ offer, onClick in
+    Button("Price Freeze") { } // This is your SwiftUI Button
 }
 ```
 
@@ -101,9 +103,9 @@ You can use this status to decide how/if to render your button, for example if y
 // Within your SwiftUI View
 HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                            purchaseCallback: {})
-{ offer in
+{ offer, onClick in
     if offer.state == .available {
-        Button("Price Freeze", action: {}) // This is your SwiftUI Button
+        Button("Price Freeze") { } // This is your SwiftUI Button
     }
 }
 ```
@@ -128,7 +130,20 @@ This will start calculating the offers in the background so the `PriceFreezeButt
 
 ### Purchasing Price Freezes
 
-By wrapping your SwiftUI Buttons in an `HCPriceFreezeButtonWrapper`, clicks will automatically be detected via a ButtonStyle and launch the appropriate Hopper Price Freeze purchase screen.
+To start the purchase flow for an offer, invoke the `onClick` function provided:
+
+```swift
+// Within your SwiftUI View
+HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
+                           purchaseCallback: {})
+{ offer, onClick in
+    if offer.state == .available {
+        Button("Price Freeze") { onClick() } // This is your SwiftUI Button
+    }
+}
+```
+
+This will trigger the purchase flow to be launched for the user.
 
 **NOTE: In this implementation stub, a placeholder version of the purchase screen will be shown**
 
@@ -149,9 +164,9 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                                }
                            }
 )
-{ offer in
+{ offer, onClick in
     if offer.state == .available {
-        Button("Price Freeze", action: {}) // This is your SwiftUI Button
+        Button("Price Freeze") { } // This is your SwiftUI Button
     }
 }
 ```

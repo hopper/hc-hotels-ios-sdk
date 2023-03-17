@@ -51,7 +51,7 @@ public struct HCHotel : Swift.Codable, Swift.Hashable {
   public init(from decoder: Swift.Decoder) throws
 }
 @_Concurrency.MainActor(unsafe) public struct HCPriceFreezeButtonWrapper<Content> : SwiftUI.View where Content : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public init(roomDetails: HCHotelsPriceFreeze.HCRoomDetails, purchaseCallback: @escaping (HCHotelsPriceFreeze.HCPriceFreezePurchaseResult) -> Swift.Void, @SwiftUI.ViewBuilder button: @escaping (HCHotelsPriceFreeze.HCPriceFreezeOffer) -> Content)
+  @_Concurrency.MainActor(unsafe) public init(roomDetails: HCHotelsPriceFreeze.HCRoomDetails, purchaseCallback: @escaping (HCHotelsPriceFreeze.HCPriceFreezePurchaseResult) -> Swift.Void, @SwiftUI.ViewBuilder button: @escaping (HCHotelsPriceFreeze.HCPriceFreezeOffer, @escaping () -> Swift.Void) -> Content)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }

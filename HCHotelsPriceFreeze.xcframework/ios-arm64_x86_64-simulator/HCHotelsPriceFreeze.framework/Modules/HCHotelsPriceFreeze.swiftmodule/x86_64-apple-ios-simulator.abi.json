@@ -231,6 +231,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HCHotelsPriceFreeze",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "HCPromotion",
         "printedName": "HCPromotion",
@@ -1034,7 +1044,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(HCHotelsPriceFreeze.HCPriceFreezeOffer) -> τ_0_0",
+                "printedName": "(HCHotelsPriceFreeze.HCPriceFreezeOffer, @escaping () -> ()) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1043,16 +1053,40 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "HCPriceFreezeOffer",
-                    "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
-                    "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
+                    "name": "Tuple",
+                    "printedName": "(HCHotelsPriceFreeze.HCPriceFreezeOffer, () -> ())",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HCPriceFreezeOffer",
+                        "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
+                        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferVctcfc",
-            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferVctcfc",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferV_yyctctcfc",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferV_yyctctcfc",
             "moduleName": "HCHotelsPriceFreeze",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
@@ -3736,9 +3770,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Styles\/HCPriceFreezeButtonStyle.swift",
+      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Views\/Public\/HCPriceFreezeButtonWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 282,
+      "offset": 648,
       "length": 5,
       "value": "false"
     },
