@@ -1677,15 +1677,67 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(token:)",
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "HCHotelsPriceFreezeSDK",
                 "printedName": "HCHotelsPriceFreeze.HCHotelsPriceFreezeSDK",
                 "usr": "s:19HCHotelsPriceFreeze0abC3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC6sharedACvpZ",
+            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC6sharedACvpZ",
+            "moduleName": "HCHotelsPriceFreeze",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HCHotelsPriceFreezeSDK",
+                    "printedName": "HCHotelsPriceFreeze.HCHotelsPriceFreezeSDK",
+                    "usr": "s:19HCHotelsPriceFreeze0abC3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC6sharedACvgZ",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC6sharedACvgZ",
+                "moduleName": "HCHotelsPriceFreeze",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -1694,16 +1746,16 @@
                 "usr": "s:SS"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC5tokenACSS_tcfc",
-            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC5tokenACSS_tcfc",
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC9configure4withySS_tF",
+            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC9configure4withySS_tF",
             "moduleName": "HCHotelsPriceFreeze",
             "declAttributes": [
               "Custom",
               "AccessControl",
               "RawDocComment"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -1773,6 +1825,7 @@
           "Custom",
           "RawDocComment"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -3772,9 +3825,16 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Views\/Public\/HCPriceFreezeButtonWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 648,
+      "offset": 653,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/HCHotelsPriceFreezeSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Test\/TestData.swift",

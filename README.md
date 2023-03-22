@@ -28,35 +28,18 @@ Below is a summary of usage, see each class and method for additional documentat
 
 ### Setup
 
-You have options for how to integrate the SDK into your app.
-
-One option is to create a single instance of HCHotelsPriceFreezeSDK for your entire app as a `@StateObject` and pass the SDK into a base SwiftUI view as an `@EnvironmentObject`. For example:
-
-```swift
-import HCHotelsPriceFreeze
-import SwiftUI
-
-@main
-struct MyApp: App {
-    @StateObject var sdk = HCHotelsPriceFreezeSDK(token: "your_hopper_token)
-                                                  
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environmentObject(sdk)
-        }
-    }
-}
-```
-
-Another option is to create an instance of HCHotelsPriceFreezeSDK in your SwiftUI view and pass it into the `HCPriceFreezeButtonWrapper` as an `environmentObject`.
+Access the SDK using an `ObservedObject` and call `configure()` before making requests.
 
 ```swift
 import HCHotelsPriceFreeze
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var sdk = HCHotelsPriceFreezeSDK(token: "my_hopper_token")
+    @ObservedObject var sdk = HCHotelsPriceFreezeSDK.shared
+    
+    init() {
+        sdk.configure(with: "your_hopper_token")
+    }
     
     var body: some View {
         HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
@@ -64,7 +47,6 @@ struct ContentView: View {
         { offer, onClick in
             Button("Freeze Price") { } // This is your SwiftUI Button
         }
-        .environmentObject(sdk)
     }
 }
 ``` 

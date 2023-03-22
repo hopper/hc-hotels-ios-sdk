@@ -67,7 +67,7 @@ public struct HCGuests : Swift.Codable, Swift.Hashable {
   }
   public init(from decoder: Swift.Decoder) throws
 }
-@available(iOS 14.2, *)
+@_hasMissingDesignatedInitializers @available(iOS 14.2, *)
 @_Concurrency.MainActor public class HCHotelsPriceFreezeSDK : Combine.ObservableObject {
   @Combine.Published @_projectedValueProperty($priceFreezeOffers) @_Concurrency.MainActor public var priceFreezeOffers: [HCHotelsPriceFreeze.HCPriceFreezeOffer] {
     get
@@ -81,7 +81,8 @@ public struct HCGuests : Swift.Codable, Swift.Hashable {
     @available(iOS 14.2, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  @_Concurrency.MainActor public init(token: Swift.String)
+  @_Concurrency.MainActor public static let shared: HCHotelsPriceFreeze.HCHotelsPriceFreezeSDK
+  @_Concurrency.MainActor public func configure(with token: Swift.String)
   @_Concurrency.MainActor public func cacheOffers(for rooms: [HCHotelsPriceFreeze.HCRoomDetails])
   @_Concurrency.MainActor public func refreshCachedOffers()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
