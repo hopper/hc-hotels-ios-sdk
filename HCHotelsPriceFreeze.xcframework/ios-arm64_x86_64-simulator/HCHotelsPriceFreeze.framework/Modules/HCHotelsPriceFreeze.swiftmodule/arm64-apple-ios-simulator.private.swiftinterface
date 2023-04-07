@@ -14,6 +14,7 @@ import _Concurrency
 import _StringProcessing
 import os
 public struct HCCheckInTime : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public init(localTime: Swift.String, utcOffset: Swift.String)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: HCHotelsPriceFreeze.HCCheckInTime, b: HCHotelsPriceFreeze.HCCheckInTime) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
@@ -23,6 +24,7 @@ public struct HCCheckInTime : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCPromotion : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public init(id: Swift.String, expiry: Swift.String?)
   public static func == (a: HCHotelsPriceFreeze.HCPromotion, b: HCHotelsPriceFreeze.HCPromotion) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: Swift.Encoder) throws
@@ -32,6 +34,7 @@ public struct HCPromotion : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCBooking : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public init(stayDates: HCHotelsPriceFreeze.HCStayDates, guests: HCHotelsPriceFreeze.HCGuests, locale: Swift.String, currency: Swift.String, numberOfRooms: Swift.Int)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: HCHotelsPriceFreeze.HCBooking, b: HCHotelsPriceFreeze.HCBooking) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
@@ -41,6 +44,7 @@ public struct HCBooking : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCHotel : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public init(id: Swift.String, name: Swift.String, starRating: Swift.String, partnerRating: Swift.String?, address: HCHotelsPriceFreeze.HCAddress, checkInTime: HCHotelsPriceFreeze.HCCheckInTime?)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: HCHotelsPriceFreeze.HCHotel, b: HCHotelsPriceFreeze.HCHotel) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
@@ -66,6 +70,7 @@ public enum HCRefresh : Swift.String, Swift.Codable {
   }
 }
 public struct HCGuests : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public init(adults: Swift.Int, children: Swift.Int)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: HCHotelsPriceFreeze.HCGuests, b: HCHotelsPriceFreeze.HCGuests) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
@@ -106,6 +111,7 @@ public enum HCPriceFreezePurchaseResult : Swift.Codable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCAddress : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public init(line: Swift.String, city: Swift.String, countryCode: Swift.String)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: HCHotelsPriceFreeze.HCAddress, b: HCHotelsPriceFreeze.HCAddress) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
@@ -115,6 +121,7 @@ public struct HCAddress : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCRoom : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool?, imageUrl: Swift.String, priceInclusive: Swift.String, extAttributes: Swift.Dictionary<Swift.String, Swift.String>)
   public static func == (a: HCHotelsPriceFreeze.HCRoom, b: HCHotelsPriceFreeze.HCRoom) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: Swift.Encoder) throws
@@ -147,6 +154,7 @@ public enum HCPriceFreezeOfferState : Swift.Codable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCStayDates : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public init(checkIn: Swift.String, checkOut: Swift.String)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: HCHotelsPriceFreeze.HCStayDates, b: HCHotelsPriceFreeze.HCStayDates) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
@@ -162,6 +170,7 @@ public struct HCErrorInfo : Swift.Error, Swift.Codable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCRoomDetails : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public init(userId: Swift.String? = nil, booking: HCHotelsPriceFreeze.HCBooking, hotel: HCHotelsPriceFreeze.HCHotel, room: HCHotelsPriceFreeze.HCRoom)
   public static func == (a: HCHotelsPriceFreeze.HCRoomDetails, b: HCHotelsPriceFreeze.HCRoomDetails) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: Swift.Encoder) throws
