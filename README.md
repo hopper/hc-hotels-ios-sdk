@@ -152,3 +152,7 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
     }
 }
 ```
+
+## Notes
+1. Xcode 14 has a known issue when running code that utilizes `WKWebView`s. You may notice an Xcode warning, displayed as a purple exclamation point, when interacting with the price freeze purchase microsite. The warning will state `Security: This method should not be called on the main thread as it may lead to UI unresponsiveness`. (Apple's Developer Technical Support addressed the issue)[https://developer.apple.com/forums/thread/714467?answerId=734799022#734799022] and outlined steps to confirm the warning can be ignored, as we can here.
+2. SwiftUI `VStack`s typically render all their elements, even off-screen elements, on first load. To prevent `onShown` events from being fired for off-screen elements, usage of `LazyVStack` or `List` is suggested. 
