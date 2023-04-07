@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q3o+B19cPG05xYITpbNAjU67Mmo=
+		+k/KhYC+whbDdo+o3Hw2XQwwu9M=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uH7PgwzM+V6FRycJSbZPTQ1ObxU=
+		gyLR4bBBhGMZ/857IiGWZzqtFWI=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q3o+B19cPG05xYITpbNAjU67Mmo=
+		+k/KhYC+whbDdo+o3Hw2XQwwu9M=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L9ijOHFP/0pw15Ld1ljOhmnGlNE=
+		QCcMNxLkH6BmbclNDcniVvjrfUo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6niGDagHugJHMTgwclTEKbAzBBoNTHvnhr36IIGvryk=
+			7IaAJS50DZ2b771i2N8BHEqaHnp89TiwSXPn6tH1wME=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FUaiO7vmYpkImiyKzTRA2CWgEO79S/kxVngz65vBfcY=
+			uQ0oeDDdW0l7WX4sfLQTT8alAnAaovy70DnRGlIpLi8=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6niGDagHugJHMTgwclTEKbAzBBoNTHvnhr36IIGvryk=
+			7IaAJS50DZ2b771i2N8BHEqaHnp89TiwSXPn6tH1wME=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qi0wwLTFNgzX3nv7KFYVultSOySPdxyQwBVHkp8wk0U=
+			ozYkC175kM+ZBpCxfOv0uga3tAK4WUkea8jlqcMDVSI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,5 +1,5 @@
 # Hopper Hotel Price Freeze SDK for iOS
-NOTE: This initial version of the SDK is an implementation stub only. It provides mock functionality for the purposes of beginning to integrate with the SDK.
+NOTE: This version of the SDK is under development.
 
 This repo contains the HCHotelsPriceFreeze framework which can be added to your iOS project via CocoaPods or manually.
 
@@ -22,7 +22,7 @@ If you're having issues installing CocoaPods, or for a more detailed walkthrough
 3. Drag the HCHotelsPriceFreeze.xcframework into your Xcode project
 
 ## Usage
-NOTE: This initial version of the SDK is an implementation stub only. It provides mock functionality for the purposes of beginning to integrate with the SDK.
+NOTE: This version of the SDK is under development.
 
 Below is a summary of usage, see each class and method for additional documentation.
 
@@ -38,7 +38,8 @@ struct ContentView: View {
     @ObservedObject var sdk = HCHotelsPriceFreezeSDK.shared
     
     init() {
-        sdk.configure(with: "your_hopper_token")
+        sdk.configure(with: "your_hopper_token",
+                      environmentType: .staging)
     }
     
     var body: some View {
@@ -108,8 +109,6 @@ sdk.cacheOffers(for: rooms) // Where `rooms` is an array of `HCRoomDetails` to p
 
 This will start calculating the offers in the background so the `PriceFreezeButtonWrapper` will have a result immediately or sooner. 
 
-**NOTE: In this implementation stub, this function has no effect**
-
 ### Purchasing Price Freezes
 
 To start the purchase flow for an offer, invoke the `onClick` function provided:
@@ -126,8 +125,6 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
 ```
 
 This will trigger the purchase flow to be launched for the user.
-
-**NOTE: In this implementation stub, a placeholder version of the purchase screen will be shown**
 
 ### Observing Price Freeze Purchase Results
 
