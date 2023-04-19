@@ -522,6 +522,40 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCBooking",
+                "printedName": "HCHotelsPriceFreeze.HCBooking",
+                "usr": "s:19HCHotelsPriceFreeze9HCBookingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCBooking",
+                "printedName": "HCHotelsPriceFreeze.HCBooking",
+                "usr": "s:19HCHotelsPriceFreeze9HCBookingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze9HCBookingV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19HCHotelsPriceFreeze9HCBookingV2eeoiySbAC_ACtFZ",
+            "moduleName": "HCHotelsPriceFreeze",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -633,38 +667,6 @@
             "usr": "s:19HCHotelsPriceFreeze9HCBookingV4hash4intoys6HasherVz_tF",
             "mangledName": "$s19HCHotelsPriceFreeze9HCBookingV4hash4intoys6HasherVz_tF",
             "moduleName": "HCHotelsPriceFreeze",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HCBooking",
-                "printedName": "HCHotelsPriceFreeze.HCBooking",
-                "usr": "s:19HCHotelsPriceFreeze9HCBookingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HCBooking",
-                "printedName": "HCHotelsPriceFreeze.HCBooking",
-                "usr": "s:19HCHotelsPriceFreeze9HCBookingV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19HCHotelsPriceFreeze9HCBookingV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s19HCHotelsPriceFreeze9HCBookingV2eeoiySbAC_ACtFZ",
-            "moduleName": "HCHotelsPriceFreeze",
-            "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
           }
@@ -4732,7 +4734,7 @@
       "kind": "StringLiteral",
       "offset": 150,
       "length": 7,
-      "value": "\"0.1.7\""
+      "value": "\"0.1.8\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",

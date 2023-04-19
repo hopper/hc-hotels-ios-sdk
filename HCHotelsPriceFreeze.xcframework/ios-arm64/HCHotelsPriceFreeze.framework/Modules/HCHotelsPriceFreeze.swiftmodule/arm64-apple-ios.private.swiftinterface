@@ -35,8 +35,8 @@ public struct HCPromotion : Swift.Codable, Swift.Equatable, Swift.Hashable {
 }
 public struct HCBooking : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(stayDates: HCHotelsPriceFreeze.HCStayDates, guests: HCHotelsPriceFreeze.HCGuests, locale: Swift.String, currency: Swift.String, numberOfRooms: Swift.Int)
+  public static func == (lhs: HCHotelsPriceFreeze.HCBooking, rhs: HCHotelsPriceFreeze.HCBooking) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: HCHotelsPriceFreeze.HCBooking, b: HCHotelsPriceFreeze.HCBooking) -> Swift.Bool
   public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
