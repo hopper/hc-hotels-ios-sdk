@@ -2820,17 +2820,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -2866,14 +2858,48 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19HCHotelsPriceFreeze6HCRoomV2id10merchantId0f4RoomG04name4beds5price8roomType9promotion16cancellationCode012rateCategoryG06addons12availability12isRefundable8imageUrl0K9Inclusive13extAttributesACSS_S2SSgSSSiS2SAA11HCPromotionVSgS2SSaySSGSgSiSbSgS2SSDyS2SGtcfc",
-            "mangledName": "$s19HCHotelsPriceFreeze6HCRoomV2id10merchantId0f4RoomG04name4beds5price8roomType9promotion16cancellationCode012rateCategoryG06addons12availability12isRefundable8imageUrl0K9Inclusive13extAttributesACSS_S2SSgSSSiS2SAA11HCPromotionVSgS2SSaySSGSgSiSbSgS2SSDyS2SGtcfc",
+            "usr": "s:19HCHotelsPriceFreeze6HCRoomV2id10merchantId0f4RoomG04name4beds5price8roomType9promotion16cancellationCode012rateCategoryG06addons12availability12isRefundable8imageUrl0K9Inclusive13extAttributesACSS_S2SSgSSSiS2SAA11HCPromotionVSgS2SSaySSGSgSiSbS2SSDyS2SGtcfc",
+            "mangledName": "$s19HCHotelsPriceFreeze6HCRoomV2id10merchantId0f4RoomG04name4beds5price8roomType9promotion16cancellationCode012rateCategoryG06addons12availability12isRefundable8imageUrl0K9Inclusive13extAttributesACSS_S2SSgSSSiS2SAA11HCPromotionVSgS2SSaySSGSgSiSbS2SSDyS2SGtcfc",
             "moduleName": "HCHotelsPriceFreeze",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCRoom",
+                "printedName": "HCHotelsPriceFreeze.HCRoom",
+                "usr": "s:19HCHotelsPriceFreeze6HCRoomV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCRoom",
+                "printedName": "HCHotelsPriceFreeze.HCRoom",
+                "usr": "s:19HCHotelsPriceFreeze6HCRoomV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze6HCRoomV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19HCHotelsPriceFreeze6HCRoomV2eeoiySbAC_ACtFZ",
+            "moduleName": "HCHotelsPriceFreeze",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -2924,38 +2950,6 @@
             "moduleName": "HCHotelsPriceFreeze",
             "implicit": true,
             "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HCRoom",
-                "printedName": "HCHotelsPriceFreeze.HCRoom",
-                "usr": "s:19HCHotelsPriceFreeze6HCRoomV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HCRoom",
-                "printedName": "HCHotelsPriceFreeze.HCRoom",
-                "usr": "s:19HCHotelsPriceFreeze6HCRoomV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19HCHotelsPriceFreeze6HCRoomV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s19HCHotelsPriceFreeze6HCRoomV2eeoiySbAC_ACtFZ",
-            "moduleName": "HCHotelsPriceFreeze",
-            "static": true,
-            "implicit": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -4561,16 +4555,23 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2173,
-      "length": 454,
-      "value": "\"    if (typeof window.HopperSDKBridge === 'undefined') {\n        window.HopperSDKBridge = {\n            event: function(eventName, data) {\n                if (!data) {\n                    data = {};\n                }\n                window.webkit.messageHandlers.HopperSDKBridge.postMessage({eventName: eventName, data: data});\n            }\n        };\n    }\""
+      "offset": 2885,
+      "length": 1249,
+      "value": "\"    if (typeof window.HopperSDKBridge === 'undefined') {\n        window.HopperSDKBridge = {\n            event: function(eventName, data) {\n                if (!data) {\n                    data = {};\n                }\n                window.webkit.messageHandlers.HopperSDKBridge.postMessage({eventName: eventName, data: data});\n            }\n        };\n    }\n\n    window.onload = function() {\n        document.body.addEventListener('click', function(event) {\n            var targetElement = event.target;\n            \n            var backActionLink = targetElement.closest('a[data-action=\"back\"]');\n            if (backActionLink) {\n                event.preventDefault();\n                window.webkit.messageHandlers.backAction.postMessage(null);\n            }\n\n            var helpDiv = targetElement.closest('div.go-back-block');\n            if (helpDiv) {\n                event.preventDefault();\n                window.webkit.messageHandlers.backAction.postMessage(null);\n            }\n        });\n    };\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2812,
+      "offset": 4319,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4416,
+      "length": 12,
+      "value": "\"backAction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
@@ -4731,7 +4732,7 @@
       "kind": "StringLiteral",
       "offset": 150,
       "length": 7,
-      "value": "\"0.1.3\""
+      "value": "\"0.1.7\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",

@@ -121,8 +121,8 @@ public struct HCAddress : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCRoom : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool?, imageUrl: Swift.String, priceInclusive: Swift.String, extAttributes: Swift.Dictionary<Swift.String, Swift.String>)
-  public static func == (a: HCHotelsPriceFreeze.HCRoom, b: HCHotelsPriceFreeze.HCRoom) -> Swift.Bool
+  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool, imageUrl: Swift.String, priceInclusive: Swift.String, extAttributes: Swift.Dictionary<Swift.String, Swift.String>)
+  public static func == (lhs: HCHotelsPriceFreeze.HCRoom, rhs: HCHotelsPriceFreeze.HCRoom) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
