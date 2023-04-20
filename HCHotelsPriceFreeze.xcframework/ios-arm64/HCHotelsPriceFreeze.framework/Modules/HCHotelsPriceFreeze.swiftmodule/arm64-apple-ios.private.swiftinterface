@@ -81,14 +81,14 @@ public struct HCGuests : Swift.Codable, Swift.Hashable, Swift.Equatable {
 }
 @_hasMissingDesignatedInitializers @available(iOS 14.2, *)
 @_Concurrency.MainActor public class HCHotelsPriceFreezeSDK : Combine.ObservableObject {
-  @Combine.Published @_projectedValueProperty($priceFreezeOffers) @_Concurrency.MainActor public var priceFreezeOffers: [HCHotelsPriceFreeze.HCPriceFreezeOffer] {
+  @Combine.Published @_projectedValueProperty($priceFreezeOffers) @_Concurrency.MainActor public var priceFreezeOffers: [(HCHotelsPriceFreeze.HCRoomDetails, HCHotelsPriceFreeze.HCPriceFreezeOffer, HCHotelsPriceFreeze.HCOfferResponse?)] {
     get
     @available(iOS 14.2, *)
     set
     @available(iOS 14.2, *)
     _modify
   }
-  @_Concurrency.MainActor public var $priceFreezeOffers: Combine.Published<[HCHotelsPriceFreeze.HCPriceFreezeOffer]>.Publisher {
+  @_Concurrency.MainActor public var $priceFreezeOffers: Combine.Published<[(HCHotelsPriceFreeze.HCRoomDetails, HCHotelsPriceFreeze.HCPriceFreezeOffer, HCHotelsPriceFreeze.HCOfferResponse?)]>.Publisher {
     get
     @available(iOS 14.2, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
@@ -177,6 +177,10 @@ public struct HCRoomDetails : Swift.Codable, Swift.Equatable, Swift.Hashable {
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct HCOfferResponse : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
 extension HCHotelsPriceFreeze.HCRefresh : Swift.Equatable {}
