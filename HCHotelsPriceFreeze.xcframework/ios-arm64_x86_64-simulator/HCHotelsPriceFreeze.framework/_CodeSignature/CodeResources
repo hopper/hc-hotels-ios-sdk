@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VTjE+r/pmcVV3CAuaFMkvMcwDRY=
+		W5yvOmcF5F9vrl0dIZRq8EEaoJs=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0cYz5XB12J0thD73ByPddKoyqk0=
+		f3EuTg/L1R40hVjF/PYHxcrH9Nc=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VTjE+r/pmcVV3CAuaFMkvMcwDRY=
+		W5yvOmcF5F9vrl0dIZRq8EEaoJs=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rax2Q+Yxg2LDb7WA3ImH0YXJUv0=
+		fzbwrZtj5D0XLEIXsc5qCE8xN9Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYcyjIVzfQsRBdRhphlYxDw3HVa4MDDm2zmLsN/zsN0=
+			l1lAVhMhffy8SkeYf4+LanC2o0t7z0ue7tbp7If/j2o=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SJju0rvOmZiqrkjGmbDZH7Gkz/uW4VvBB+J/rmpvQ7s=
+			7b3A1ob4llPtj6hPpP0yyPtqHTrEphv3cWLVCEsmK4E=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYcyjIVzfQsRBdRhphlYxDw3HVa4MDDm2zmLsN/zsN0=
+			l1lAVhMhffy8SkeYf4+LanC2o0t7z0ue7tbp7If/j2o=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaPXHQkKoTK4QVZQyMJ3OwsdCNCz5Zb59sUegr6NVAU=
+			YyROY+6mDsKA9RbwcnFl97eQGrqkE+5g2fRdUvbdWXg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -21,6 +21,11 @@ If you're having issues installing CocoaPods, or for a more detailed walkthrough
 2. Unzip the zip file
 3. Drag the HCHotelsPriceFreeze.xcframework into your Xcode project
 
+## CocoaPods Update Process
+1. Open Terminal
+1. In Terminal navigate to your Xcode project root directory
+1. In Terminal run `pod update HCHotelsPriceFreezeSDK`
+
 ## Usage
 NOTE: This version of the SDK is under development.
 
@@ -152,3 +157,32 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
 
 ## Notes
 1. Xcode 14 has a known issue when running code that utilizes `WKWebView`s. You may notice an Xcode warning, displayed as a purple exclamation point, when interacting with the price freeze purchase microsite. The warning will state `Security: This method should not be called on the main thread as it may lead to UI unresponsiveness`. (Apple's Developer Technical Support addressed the issue)[https://developer.apple.com/forums/thread/714467?answerId=734799022#734799022] and outlined steps to confirm the warning can be ignored, as we can here.
+
+---
+## Changelog
+### Version 0.1.10 (XX-YY-23)
+- Open all microsite links in-app
+
+### Version 0.1.9 (04-20-23)
+- Change internal management of Price Freeze Offers to address fetching errors and loading errors
+
+### Version 0.1.7 (04-19-23)
+- Change `isRefundable` field on `HCRoom` to required
+
+### Version 0.1.6 (04-18-23)
+- Added version number to internal logging
+
+### Version 0.1.5 (04-17-23)
+- E2E tests added
+- Fixed bug that prevented hotel image from displaying on microsite
+- Fixed bug that fired internal analytics event early
+
+### Version 0.1.3 (04-07-23)
+- Initial functional draft
+- Session management added 
+- Changed offer storage logic
+- Logging added
+- Debouncing added
+
+### Version 0.0.6 (03-08-23)
+- Initial implementation stub, a mockup of the SDK's interface
