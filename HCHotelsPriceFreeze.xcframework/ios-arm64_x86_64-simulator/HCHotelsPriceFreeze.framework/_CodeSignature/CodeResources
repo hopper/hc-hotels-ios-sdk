@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		W5yvOmcF5F9vrl0dIZRq8EEaoJs=
+		sNvBM3p/U4JeZsas63A+NHt0D/Y=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f3EuTg/L1R40hVjF/PYHxcrH9Nc=
+		66nDeU3PQekJ2jNCcUACdhOJpD0=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		W5yvOmcF5F9vrl0dIZRq8EEaoJs=
+		sNvBM3p/U4JeZsas63A+NHt0D/Y=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fzbwrZtj5D0XLEIXsc5qCE8xN9Q=
+		/GNGE4qLmKKYeT7o/fQSZnOwTAo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l1lAVhMhffy8SkeYf4+LanC2o0t7z0ue7tbp7If/j2o=
+			uFDBFcyKb0Wf8XwnvBEvTgY5F+l14axREHvOjvEpWu0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7b3A1ob4llPtj6hPpP0yyPtqHTrEphv3cWLVCEsmK4E=
+			aSGbrVGFGLgAb5TXKq5XtZusFcqjne9VPsF7LQiwASA=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l1lAVhMhffy8SkeYf4+LanC2o0t7z0ue7tbp7If/j2o=
+			uFDBFcyKb0Wf8XwnvBEvTgY5F+l14axREHvOjvEpWu0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YyROY+6mDsKA9RbwcnFl97eQGrqkE+5g2fRdUvbdWXg=
+			Sr4KAAc1ZHBtsO5EyekdpBzMau5OJJmDvTknO/psAKw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

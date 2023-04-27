@@ -160,7 +160,10 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
 
 ---
 ## Changelog
-### Version 0.1.10 (XX-YY-23)
+### Version 0.1.11 (04-27-23)
+- Set session lifetime to 4 hours
+
+### Version 0.1.10 (04-26-23)
 - Open all microsite links in-app
 
 ### Version 0.1.9 (04-20-23)
