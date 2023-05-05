@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sNvBM3p/U4JeZsas63A+NHt0D/Y=
+		HBqxoyIIJ7B7Y6CsHZ0+tzH042I=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		66nDeU3PQekJ2jNCcUACdhOJpD0=
+		rq/9T9ao7cPSYZlGLRd/JsiJhi8=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sNvBM3p/U4JeZsas63A+NHt0D/Y=
+		HBqxoyIIJ7B7Y6CsHZ0+tzH042I=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/GNGE4qLmKKYeT7o/fQSZnOwTAo=
+		VQOdpia1wK7X+RMFe3LVn+qw8Hc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uFDBFcyKb0Wf8XwnvBEvTgY5F+l14axREHvOjvEpWu0=
+			oy1GuW4Am0UwVbgCZMDHZx5s2FKziP0foB+12h79wWg=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aSGbrVGFGLgAb5TXKq5XtZusFcqjne9VPsF7LQiwASA=
+			ZM0Xlui6sdeYr23w1uQLfkpTf/LPjE1aodYPgXqRzbI=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uFDBFcyKb0Wf8XwnvBEvTgY5F+l14axREHvOjvEpWu0=
+			oy1GuW4Am0UwVbgCZMDHZx5s2FKziP0foB+12h79wWg=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sr4KAAc1ZHBtsO5EyekdpBzMau5OJJmDvTknO/psAKw=
+			1XzbDhGsOrL3Wu37I18Gx0VRzXb25HtwcwyGYqOIxgM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
