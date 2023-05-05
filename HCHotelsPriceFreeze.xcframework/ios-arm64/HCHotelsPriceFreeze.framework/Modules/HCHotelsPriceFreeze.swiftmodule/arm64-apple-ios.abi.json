@@ -4652,7 +4652,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.12\""
+      "value": "\"0.1.13\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
@@ -4720,7 +4720,7 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Modifiers\/HCPriceFreezeButtonModifier.swift",
       "kind": "BooleanLiteral",
-      "offset": 7591,
+      "offset": 7592,
       "length": 5,
       "value": "false"
     },
