@@ -139,8 +139,12 @@ The `HCPriceFreezeButtonWrapper` accepts a `purchaseCallback` which allows you t
 HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                            purchaseCallback: { purchaseResult in
                                switch purchaseResult {
-                               case .purchased: // The user purchased the price freeze
-                                   print("Price Freeze Purchased!")
+                               case .purchased(let offer): // The user purchased the PF
+                                    print("Price Freeze Purchased!"
+                                    print("Offer ID: \(offer.id)")
+                                    print("Offer Conditions: \(offer.conditions)")
+                                    print("Offer frozenPrice: \(offer.conditions.frozenPrice)")
+                                    print("Offer cap: \(offer.conditions.cap)")
                                case .cancelled: // The user exited the purchase flow without purchasing
                                    print("Price Freeze purchase flow cancelled")
                                default: // Other purchaseResult outcomes

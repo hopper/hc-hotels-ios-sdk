@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pxEGQ7766CG5DXXjxUAXbwjYgM4=
+		vB6Im9PnKySMwV5lKY/kRoNHxsU=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jk4RN34HJ+pBFSacJb1PTGmSiEc=
+		VTDI62HfyPPQZOY+Uar8JlZH8qE=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pxEGQ7766CG5DXXjxUAXbwjYgM4=
+		vB6Im9PnKySMwV5lKY/kRoNHxsU=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V3Z++1nS71BASvyjEhg64YTj+qM=
+		xglUCfIJP5g2YxfkL8P+H0b8aXA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mUGWguhtatM3Og9FdKUhCTeqZzSEMvxh1eUD2GCEys=
+			IwyEnqrPxA2euHTw5foZtlNdWGt69/6X6mJEE2rWcq0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n5yiMn/KtNHXGVMzuRy1zyBJA+VR4NyKWrsINm2+JIM=
+			oBMVC4IoUNz/bJ5bdeugdWHXNVxj3N+oz31EN4guAt0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8mUGWguhtatM3Og9FdKUhCTeqZzSEMvxh1eUD2GCEys=
+			IwyEnqrPxA2euHTw5foZtlNdWGt69/6X6mJEE2rWcq0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hg4Li9tSh4grxDj0s/RbUV6nBa18q4I1ExYD5829k7s=
+			cp0brjKH+REwVK3PZSXPZe2ei4wMSVosuX8H2OnDRMM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
