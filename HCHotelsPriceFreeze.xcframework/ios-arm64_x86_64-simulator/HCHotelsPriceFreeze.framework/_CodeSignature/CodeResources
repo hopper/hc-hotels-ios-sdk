@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YOm3krcoSATC3EC7CwbP2o167ok=
+		W1C1fPOerzXi5IVMEgzHehstU/0=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mZvyLo8KR54DDs9Lh+KKuUPZGF4=
+		YvmcUiGjhsGR/SDdCKSz4KooRiM=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YOm3krcoSATC3EC7CwbP2o167ok=
+		W1C1fPOerzXi5IVMEgzHehstU/0=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CKm0wmz0RI8iR2z8IR/d5gJ2kvU=
+		NJIaoKMYBkEteWSMIQur24S0iFw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MXF3pzIgeKRuV07I5NoEKEn/MHimZVHsaWzZ5zSO2IY=
+			fF0Qqsw9RnLT7YuGdHqhoOGABsoFQawnzz+Qqz87/hs=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zwuT3Wrj8SVs9+1LPsDld2Lkd9fJnN/vuPDp2eZpMqY=
+			EW93yKtbFTNTtiQPIbWJKPq6HDf+WkelhMIC5w5qLp4=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MXF3pzIgeKRuV07I5NoEKEn/MHimZVHsaWzZ5zSO2IY=
+			fF0Qqsw9RnLT7YuGdHqhoOGABsoFQawnzz+Qqz87/hs=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2zPpJynYYZp2i1CIv3bjTiL9DmfGb24Q8IUV7iAY884=
+			STP9GDTqlNBF9IHe36wjazvnQfAEKaAoJFnAi69FLto=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
