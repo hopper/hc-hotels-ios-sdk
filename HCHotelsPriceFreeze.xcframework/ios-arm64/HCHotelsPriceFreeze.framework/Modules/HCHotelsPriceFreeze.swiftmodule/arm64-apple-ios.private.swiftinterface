@@ -153,7 +153,22 @@ public enum HCPriceFreezeOfferState : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct HCExtOfferConditions : Swift.Codable {
+  public var currency: Swift.String
+  public var frozenPrice: Swift.String
+  public var frozenPriceTotal: Swift.String
+  public var deposit: Swift.String
+  public var depositTotal: Swift.String
+  public var cap: Swift.String
+  public var capTotal: Swift.String
+  public var offerExpiry: Swift.String
+  public var freezeExpiry: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public struct HCExtOffer : Swift.Codable {
+  public var id: Swift.String
+  public var conditions: HCHotelsPriceFreeze.HCExtOfferConditions
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
