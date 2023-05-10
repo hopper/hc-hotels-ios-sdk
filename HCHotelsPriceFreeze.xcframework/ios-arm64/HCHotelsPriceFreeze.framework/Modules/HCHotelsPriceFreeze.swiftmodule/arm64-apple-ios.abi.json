@@ -5789,7 +5789,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.18\""
+      "value": "\"0.1.19\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
@@ -5870,29 +5870,36 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 2262,
-      "length": 17,
-      "value": "\"HopperSDKBridge\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 3020,
-      "length": 1249,
-      "value": "\"    if (typeof window.HopperSDKBridge === 'undefined') {\n        window.HopperSDKBridge = {\n            event: function(eventName, data) {\n                if (!data) {\n                    data = {};\n                }\n                window.webkit.messageHandlers.HopperSDKBridge.postMessage({eventName: eventName, data: data});\n            }\n        };\n    }\n\n    window.onload = function() {\n        document.body.addEventListener('click', function(event) {\n            var targetElement = event.target;\n            \n            var backActionLink = targetElement.closest('a[data-action=\"back\"]');\n            if (backActionLink) {\n                event.preventDefault();\n                window.webkit.messageHandlers.backAction.postMessage(null);\n            }\n\n            var helpDiv = targetElement.closest('div.go-back-block');\n            if (helpDiv) {\n                event.preventDefault();\n                window.webkit.messageHandlers.backAction.postMessage(null);\n            }\n        });\n    };\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4454,
+      "offset": 2186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4551,
+      "offset": 2290,
+      "length": 17,
+      "value": "\"HopperSDKBridge\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3048,
+      "length": 1249,
+      "value": "\"    if (typeof window.HopperSDKBridge === 'undefined') {\n        window.HopperSDKBridge = {\n            event: function(eventName, data) {\n                if (!data) {\n                    data = {};\n                }\n                window.webkit.messageHandlers.HopperSDKBridge.postMessage({eventName: eventName, data: data});\n            }\n        };\n    }\n\n    window.onload = function() {\n        document.body.addEventListener('click', function(event) {\n            var targetElement = event.target;\n            \n            var backActionLink = targetElement.closest('a[data-action=\"back\"]');\n            if (backActionLink) {\n                event.preventDefault();\n                window.webkit.messageHandlers.backAction.postMessage(null);\n            }\n\n            var helpDiv = targetElement.closest('div.go-back-block');\n            if (helpDiv) {\n                event.preventDefault();\n                window.webkit.messageHandlers.backAction.postMessage(null);\n            }\n        });\n    };\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Views\/HCWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4579,
       "length": 12,
       "value": "\"backAction\""
     },

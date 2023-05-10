@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		W1C1fPOerzXi5IVMEgzHehstU/0=
+		DZZ7CiJBVq1N6Pov6zhIo3i/IYM=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YvmcUiGjhsGR/SDdCKSz4KooRiM=
+		pf/D1zJBtlykIHniNxRbe2oteak=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		W1C1fPOerzXi5IVMEgzHehstU/0=
+		DZZ7CiJBVq1N6Pov6zhIo3i/IYM=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NJIaoKMYBkEteWSMIQur24S0iFw=
+		2ljWhtYlL7o8pWPToUMJohi9rR0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fF0Qqsw9RnLT7YuGdHqhoOGABsoFQawnzz+Qqz87/hs=
+			v8Zx4hLTuMvzlQfRt6E2YB/aB+xjvqhwl/UwjE1j1rM=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EW93yKtbFTNTtiQPIbWJKPq6HDf+WkelhMIC5w5qLp4=
+			xh0hqABh+8d9Aq1DYWLm1EdI1gs/furolikPDu9upqs=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fF0Qqsw9RnLT7YuGdHqhoOGABsoFQawnzz+Qqz87/hs=
+			v8Zx4hLTuMvzlQfRt6E2YB/aB+xjvqhwl/UwjE1j1rM=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			STP9GDTqlNBF9IHe36wjazvnQfAEKaAoJFnAi69FLto=
+			nkx+utuugaT6PFSrOiqEMPfvLq9JevPLiOpFFDaT21U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
