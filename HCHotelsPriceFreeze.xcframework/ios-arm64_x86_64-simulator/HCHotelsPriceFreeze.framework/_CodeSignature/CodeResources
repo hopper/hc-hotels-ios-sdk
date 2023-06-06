@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Vw24OYRCaT4ju/554ZqLPl4EaoM=
+		P0O8eM8HsWinGyY75gm5CKZo578=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qKF1+mLOnVCF1cR6hSaRRL0q0oY=
+		u+I1z2w9s4Vi1mDGQsAUF3G61Lc=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Vw24OYRCaT4ju/554ZqLPl4EaoM=
+		P0O8eM8HsWinGyY75gm5CKZo578=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vmc+/bphkuZHK/XvsDeBAXTk2IE=
+		FLp4Q6+j6Dm2E5IatWRfB8rzCgg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OsrEv44e9e3WcZwXIrKtICCkAR+5CiUV3u6ThMOgqGI=
+			G2JVBk+PyGu/D7zKEJQAEWQF+XipMaJMsd/k6zgeqyw=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLyjUcBzIRPuTLrzBZPsfoCOhSwvtDszPgodHcUkTuI=
+			myVRW+UD7/2H3PpZn1FF47t/327HieLNduJKTxK1Nd0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OsrEv44e9e3WcZwXIrKtICCkAR+5CiUV3u6ThMOgqGI=
+			G2JVBk+PyGu/D7zKEJQAEWQF+XipMaJMsd/k6zgeqyw=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NCPRcCvz36qs+18+HHNfZQGCrJ0o7miAgneUsx79ZRY=
+			0V0NoSTb7hm8KczdJaaGpMLgMy4miNgfhXHTEJ3xRvc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
