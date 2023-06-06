@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DZZ7CiJBVq1N6Pov6zhIo3i/IYM=
+		ILA+tNJ69SfB5LsniMKVFS2hbAk=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pf/D1zJBtlykIHniNxRbe2oteak=
+		K/XEkTI/qqEqEMaI2wdzJnFAog4=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DZZ7CiJBVq1N6Pov6zhIo3i/IYM=
+		ILA+tNJ69SfB5LsniMKVFS2hbAk=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2ljWhtYlL7o8pWPToUMJohi9rR0=
+		itdYRO6OlPFr4NcbFEUlGRJicqM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v8Zx4hLTuMvzlQfRt6E2YB/aB+xjvqhwl/UwjE1j1rM=
+			lQ/BGAUiO0kTI9SL0HZqJV8ni8F7u2pFyLC/iIULSiw=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xh0hqABh+8d9Aq1DYWLm1EdI1gs/furolikPDu9upqs=
+			Pqapp0CIu/ExwXsAHG1vFYLxSWXf+rgxDTij/PpwGAw=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v8Zx4hLTuMvzlQfRt6E2YB/aB+xjvqhwl/UwjE1j1rM=
+			lQ/BGAUiO0kTI9SL0HZqJV8ni8F7u2pFyLC/iIULSiw=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nkx+utuugaT6PFSrOiqEMPfvLq9JevPLiOpFFDaT21U=
+			JfnR89z44NfQHO/VA+QJ3re1QWtB1dYCCU7ai6ImoBs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
