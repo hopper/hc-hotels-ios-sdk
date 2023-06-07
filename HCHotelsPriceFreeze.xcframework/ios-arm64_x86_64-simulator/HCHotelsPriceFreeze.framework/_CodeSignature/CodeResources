@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		P0O8eM8HsWinGyY75gm5CKZo578=
+		S5BNcDnJvDBsyNXb69pCVndf0EY=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u+I1z2w9s4Vi1mDGQsAUF3G61Lc=
+		yNn9FLhMcSw6jIGCo/eMSKmc7L4=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		P0O8eM8HsWinGyY75gm5CKZo578=
+		S5BNcDnJvDBsyNXb69pCVndf0EY=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FLp4Q6+j6Dm2E5IatWRfB8rzCgg=
+		d1vPOwwoGp6QhhhfjvO98eJNyfo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G2JVBk+PyGu/D7zKEJQAEWQF+XipMaJMsd/k6zgeqyw=
+			9FHwyVDAfrDYn30ymXtgMPT5Qq9+LALWhcritqm99sA=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			myVRW+UD7/2H3PpZn1FF47t/327HieLNduJKTxK1Nd0=
+			nL2+Q+K3TQBHU68hgitiWlICQxhaeVULxkiAwjrkac0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G2JVBk+PyGu/D7zKEJQAEWQF+XipMaJMsd/k6zgeqyw=
+			9FHwyVDAfrDYn30ymXtgMPT5Qq9+LALWhcritqm99sA=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0V0NoSTb7hm8KczdJaaGpMLgMy4miNgfhXHTEJ3xRvc=
+			UEMZIFJzT64kN7xIylF2smOeYD8rt2rvXXTOSZsLvdU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
