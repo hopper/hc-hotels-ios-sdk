@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lGNPwS/YfB3dR+/dhSZuCAJCquw=
+		Tl6TtUA50y8rqzLqs2KbAiTzjgs=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2ET4b12uAXV+3LI415JJudA6cJw=
+		fTinWTxY0rwHiaslZNbvO36ki2A=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lGNPwS/YfB3dR+/dhSZuCAJCquw=
+		Tl6TtUA50y8rqzLqs2KbAiTzjgs=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XbyHC+SAs5GJxC5NK19AYBYrSsU=
+		mVnZ/aHu7581X+YgnNlxhVrQbkU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zxKPSeL+s1/ezBLwX3g52kpAyO5VE9/14ZZ5r4U3Q+g=
+			W/6sPAE/pE+v229JGPSzFzzYOogzcYcoawQ4bqIkLeM=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			naNVLypHOy9XfSFI62ENgb8S1NvH8jN/BMYleF2xVoI=
+			KRa5ZXAmtNcGAml00EaPWM3CqXzRUeE6Q0R5awB3PjI=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zxKPSeL+s1/ezBLwX3g52kpAyO5VE9/14ZZ5r4U3Q+g=
+			W/6sPAE/pE+v229JGPSzFzzYOogzcYcoawQ4bqIkLeM=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dyhEf/TyWfzO4lnNoXyqqna/wif7O0eFhmyM4y8bziM=
+			pCTqtjxXqGiLV0LrOVcpiPpIcVf3fjImghfsVpnAsLw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
