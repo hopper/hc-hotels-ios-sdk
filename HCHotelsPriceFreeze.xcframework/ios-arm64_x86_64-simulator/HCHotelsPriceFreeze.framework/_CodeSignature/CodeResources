@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		S5BNcDnJvDBsyNXb69pCVndf0EY=
+		lGNPwS/YfB3dR+/dhSZuCAJCquw=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yNn9FLhMcSw6jIGCo/eMSKmc7L4=
+		2ET4b12uAXV+3LI415JJudA6cJw=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		S5BNcDnJvDBsyNXb69pCVndf0EY=
+		lGNPwS/YfB3dR+/dhSZuCAJCquw=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d1vPOwwoGp6QhhhfjvO98eJNyfo=
+		XbyHC+SAs5GJxC5NK19AYBYrSsU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9FHwyVDAfrDYn30ymXtgMPT5Qq9+LALWhcritqm99sA=
+			zxKPSeL+s1/ezBLwX3g52kpAyO5VE9/14ZZ5r4U3Q+g=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nL2+Q+K3TQBHU68hgitiWlICQxhaeVULxkiAwjrkac0=
+			naNVLypHOy9XfSFI62ENgb8S1NvH8jN/BMYleF2xVoI=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9FHwyVDAfrDYn30ymXtgMPT5Qq9+LALWhcritqm99sA=
+			zxKPSeL+s1/ezBLwX3g52kpAyO5VE9/14ZZ5r4U3Q+g=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UEMZIFJzT64kN7xIylF2smOeYD8rt2rvXXTOSZsLvdU=
+			dyhEf/TyWfzO4lnNoXyqqna/wif7O0eFhmyM4y8bziM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
