@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WZty6K2AXnJJOS4L0iW18kf6Ef0=
+		3BcW4ke+DL03hPb2dCtPXAdiwLA=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mhUt+Zp5QKtxQkYO1eKZfEuadFA=
+		n/nnvZxasiUYbbhAoNGcUyJLOe4=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WZty6K2AXnJJOS4L0iW18kf6Ef0=
+		3BcW4ke+DL03hPb2dCtPXAdiwLA=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		shOFgrQssLivkBc7APj8DvDeC9w=
+		Vv13pRTBZitjVRwNi1rgX+VVJrc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlS0TshexhZ6CZh7qXXV15Jb1HhQizBGh1EVCbBSzLg=
+			IlZBGoEb9A+XZfgo2BVlJ5Ch1E770pl8SOeq/Lr865I=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmx/TgM68HDfUO4pIJ9mWMSsBrgzaRiCCR0HQrNJH8g=
+			zH/jMXASIvQR+1VlVwB2WUpmqTHTlo8WhiHbszIU1mU=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlS0TshexhZ6CZh7qXXV15Jb1HhQizBGh1EVCbBSzLg=
+			IlZBGoEb9A+XZfgo2BVlJ5Ch1E770pl8SOeq/Lr865I=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TFyUH/9XWgNS0b2kFLQkROPYTojtBj6WpfbnefXJpqU=
+			0N5iL1Ha46+pCGbJjvs+1wg6EO5XJ6vl6Q0xLkMTGS8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
