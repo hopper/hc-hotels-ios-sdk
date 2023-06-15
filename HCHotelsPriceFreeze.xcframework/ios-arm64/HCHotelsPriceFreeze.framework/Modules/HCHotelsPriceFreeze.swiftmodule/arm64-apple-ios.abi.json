@@ -465,6 +465,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HCHotelsPriceFreeze",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "HCBooking",
         "printedName": "HCBooking",
@@ -1052,7 +1062,7 @@
                         "kind": "TypeNominal",
                         "name": "HCPriceFreezeOffer",
                         "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
-                        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
+                        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC"
                       },
                       {
                         "kind": "TypeFunc",
@@ -1077,8 +1087,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferV_yyctctcfc",
-            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferV_yyctctcfc",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferC_yyctctcfc",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC13ButtonWrapperV11roomDetails16purchaseCallback6buttonACyxGAA06HCRoomH0V_yAA0dC14PurchaseResultOcxAA0dC5OfferC_yyctctcfc",
             "moduleName": "HCHotelsPriceFreeze",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Content where Content : SwiftUI.View>",
@@ -1671,6 +1681,13 @@
         "moduleName": "HCHotelsPriceFreeze"
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HCHotelsPriceFreeze"
+      },
+      {
         "kind": "TypeDecl",
         "name": "HCHotelsPriceFreezeSDK",
         "printedName": "HCHotelsPriceFreezeSDK",
@@ -1700,7 +1717,7 @@
                         "kind": "TypeNominal",
                         "name": "HCPriceFreezeOffer",
                         "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
-                        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
+                        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1723,8 +1740,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvp",
-            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvp",
+            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvp",
+            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvp",
             "moduleName": "HCHotelsPriceFreeze",
             "declAttributes": [
               "Custom",
@@ -1759,7 +1776,7 @@
                             "kind": "TypeNominal",
                             "name": "HCPriceFreezeOffer",
                             "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
-                            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
+                            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC"
                           },
                           {
                             "kind": "TypeNominal",
@@ -1782,8 +1799,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvg",
-                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvg",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvg",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvg",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1818,7 +1835,7 @@
                             "kind": "TypeNominal",
                             "name": "HCPriceFreezeOffer",
                             "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
-                            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
+                            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC"
                           },
                           {
                             "kind": "TypeNominal",
@@ -1841,8 +1858,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvs",
-                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvs",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvs",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvs",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "intro_iOS": "14.2",
@@ -1863,8 +1880,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvM",
-                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtGvM",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvM",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC05priceC6OffersSayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtGvM",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "intro_iOS": "14.2",
@@ -1888,8 +1905,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_Gvp",
-            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_Gvp",
+            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_Gvp",
+            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_Gvp",
             "moduleName": "HCHotelsPriceFreeze",
             "implicit": true,
             "declAttributes": [
@@ -1909,8 +1926,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_Gvg",
-                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_Gvg",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_Gvg",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_Gvg",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1933,8 +1950,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_Gvs",
-                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_Gvs",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_Gvs",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_Gvs",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -1961,8 +1978,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_GvM",
-                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferVAA15HCOfferResponseVSgtG_GvM",
+                "usr": "s:19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_GvM",
+                "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC06$priceC6Offers7Combine9PublishedV9PublisherVySayAA13HCRoomDetailsV_AA07HCPriceC5OfferCAA15HCOfferResponseVSgtG_GvM",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "intro_Macosx": "11.0",
@@ -2158,6 +2175,74 @@
             "declKind": "Func",
             "usr": "s:19HCHotelsPriceFreeze0abC3SDKC19refreshCachedOffers4typeyAA9HCRefreshO_tF",
             "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC19refreshCachedOffers4typeyAA9HCRefreshO_tF",
+            "moduleName": "HCHotelsPriceFreeze",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribeTo",
+            "printedName": "subscribeTo(roomDetails:stateChange:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HCRoomDetails",
+                "printedName": "HCHotelsPriceFreeze.HCRoomDetails",
+                "usr": "s:19HCHotelsPriceFreeze13HCRoomDetailsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HCHotelsPriceFreeze.HCPriceFreezeOfferState) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HCPriceFreezeOfferState",
+                    "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOfferState",
+                    "usr": "s:19HCHotelsPriceFreeze07HCPriceC10OfferStateO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC11subscribeTo11roomDetails11stateChangeyAA06HCRoomH0V_yAA07HCPriceC10OfferStateOctF",
+            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC11subscribeTo11roomDetails11stateChangeyAA06HCRoomH0V_yAA07HCPriceC10OfferStateOctF",
+            "moduleName": "HCHotelsPriceFreeze",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelAllSubscriptions",
+            "printedName": "cancelAllSubscriptions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19HCHotelsPriceFreeze0abC3SDKC22cancelAllSubscriptionsyyF",
+            "mangledName": "$s19HCHotelsPriceFreeze0abC3SDKC22cancelAllSubscriptionsyyF",
             "moduleName": "HCHotelsPriceFreeze",
             "declAttributes": [
               "Custom",
@@ -3417,15 +3502,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvp",
-            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvp",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvp",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvp",
             "moduleName": "HCHotelsPriceFreeze",
             "declAttributes": [
-              "HasStorage",
+              "ProjectedValueProperty",
               "AccessControl",
+              "Custom",
               "RawDocComment"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -3440,8 +3525,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvg",
-                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvg",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvg",
+                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvg",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3464,8 +3549,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvs",
-                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvs",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvs",
+                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvs",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3482,8 +3567,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvM",
-                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV5stateAA0dcE5StateOvM",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvM",
+                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC5stateAA0dcE5StateOvM",
                 "moduleName": "HCHotelsPriceFreeze",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3491,79 +3576,138 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
+            "kind": "Var",
+            "name": "$state",
+            "printedName": "$state",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "HCPriceFreezeOffer",
-                "printedName": "HCHotelsPriceFreeze.HCPriceFreezeOffer",
-                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
+                "name": "Publisher",
+                "printedName": "Combine.Published<HCHotelsPriceFreeze.HCPriceFreezeOfferState>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV4fromACs7Decoder_p_tKcfc",
+            "declKind": "Var",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_Gvp",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_Gvp",
             "moduleName": "HCHotelsPriceFreeze",
             "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
+            "accessors": [
               {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<HCHotelsPriceFreeze.HCPriceFreezeOfferState>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_Gvg",
+                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_Gvg",
+                "moduleName": "HCHotelsPriceFreeze",
+                "implicit": true,
+                "accessorKind": "get"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<HCHotelsPriceFreeze.HCPriceFreezeOfferState>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_Gvs",
+                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_Gvs",
+                "moduleName": "HCHotelsPriceFreeze",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_GvM",
+                "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC6$state7Combine9PublishedV9PublisherVyAA0dcE5StateO_GvM",
+                "moduleName": "HCHotelsPriceFreeze",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
               }
-            ],
-            "declKind": "Func",
-            "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV6encode2toys7Encoder_p_tKF",
-            "moduleName": "HCHotelsPriceFreeze",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
+            ]
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferV",
-        "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferV",
+        "declKind": "Class",
+        "usr": "s:19HCHotelsPriceFreeze07HCPriceC5OfferC",
+        "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC5OfferC",
         "moduleName": "HCHotelsPriceFreeze",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
           }
         ]
       },
@@ -5671,6 +5815,13 @@
         "moduleName": "HCHotelsPriceFreeze"
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HCHotelsPriceFreeze"
+      },
+      {
         "kind": "TypeDecl",
         "name": "HCOfferResponse",
         "printedName": "HCOfferResponse",
@@ -5759,21 +5910,21 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/HCHopperInternal+Offers.swift",
       "kind": "Dictionary",
-      "offset": 2382,
+      "offset": 3120,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/HCHopperInternal+Offers.swift",
       "kind": "Array",
-      "offset": 3441,
+      "offset": 4179,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/HCHopperInternal+Offers.swift",
       "kind": "Array",
-      "offset": 3757,
+      "offset": 4495,
       "length": 2,
       "value": "[]"
     },
@@ -5789,7 +5940,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.27\""
+      "value": "\"0.1.28\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
@@ -5843,14 +5994,14 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/SDK\/HCHotelsPriceFreezeSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 750,
+      "offset": 765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/SDK\/HCHotelsPriceFreezeSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1828,
       "length": 2,
       "value": "\"\""
     },
@@ -5976,21 +6127,21 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/HCHopperInternal.swift",
       "kind": "StringLiteral",
-      "offset": 996,
+      "offset": 1011,
       "length": 23,
       "value": "\"Error accessing store\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/HCHopperInternal.swift",
       "kind": "StringLiteral",
-      "offset": 1579,
+      "offset": 1594,
       "length": 22,
       "value": "\"Error fetching offer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/HCHopperInternal.swift",
       "kind": "BooleanLiteral",
-      "offset": 1700,
+      "offset": 1715,
       "length": 5,
       "value": "false"
     },

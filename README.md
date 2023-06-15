@@ -114,6 +114,32 @@ sdk.cacheOffers(for: rooms) // Where `rooms` is an array of `HCRoomDetails` to p
 
 This will start calculating the offers in the background so the `PriceFreezeButtonWrapper` will have a result immediately or sooner. 
 
+### Observing Offers States
+
+To observe the offer state for a given room ahead of time, use the following method:
+
+```swift
+sdk.subscribeTo(roomDetails: roomDetails) {  // Where `roomroomDetails` is  of `HCRoomDetails` which you would like to observe
+    newState in
+        switch newState {
+            case .loading:
+                print("Offer for room is being calculated")
+            case .available:
+                print("Offer for room is now available")
+            case .unavailable:
+                print("No offer is available for room")
+            case .error(let error):
+                print("Error encountered for room  Error: \(error)")
+    }
+}
+
+```
+To cancel the subscription to all the subscribed rooms using above method, use the following method:
+```swift
+sdk.cancelAllSubscriptions()
+```
+
+
 ### Purchasing Price Freezes
 
 To start the purchase flow for an offer, invoke the `onClick` function provided:
@@ -159,6 +185,7 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
     }
 }
 ```
+
 
 ## Notes
 1. Xcode 14 has a known issue when running code that utilizes `WKWebView`s. You may notice an Xcode warning, displayed as a purple exclamation point, when interacting with the price freeze purchase microsite. The warning will state `Security: This method should not be called on the main thread as it may lead to UI unresponsiveness`. (Apple's Developer Technical Support addressed the issue)[https://developer.apple.com/forums/thread/714467?answerId=734799022#734799022] and outlined steps to confirm the warning can be ignored, as we can here.

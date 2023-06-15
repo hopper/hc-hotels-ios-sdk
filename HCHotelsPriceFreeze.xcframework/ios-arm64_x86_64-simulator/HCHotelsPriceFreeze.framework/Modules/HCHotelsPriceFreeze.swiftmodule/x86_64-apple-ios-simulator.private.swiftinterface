@@ -98,6 +98,8 @@ public struct HCGuests : Swift.Codable, Swift.Hashable, Swift.Equatable {
   @_Concurrency.MainActor public func updateUser(userId: Swift.String?)
   @_Concurrency.MainActor public func cacheOffers(for rooms: [HCHotelsPriceFreeze.HCRoomDetails])
   @_Concurrency.MainActor public func refreshCachedOffers(type: HCHotelsPriceFreeze.HCRefresh)
+  @_Concurrency.MainActor public func subscribeTo(roomDetails: HCHotelsPriceFreeze.HCRoomDetails, stateChange: @escaping (HCHotelsPriceFreeze.HCPriceFreezeOfferState) -> Swift.Void)
+  @_Concurrency.MainActor public func cancelAllSubscriptions()
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -139,10 +141,19 @@ public enum HCEnvironmentType : Swift.String {
     get
   }
 }
-public struct HCPriceFreezeOffer : Swift.Codable {
-  public var state: HCHotelsPriceFreeze.HCPriceFreezeOfferState
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+@_hasMissingDesignatedInitializers public class HCPriceFreezeOffer : Foundation.ObservableObject {
+  @Combine.Published @_projectedValueProperty($state) public var state: HCHotelsPriceFreeze.HCPriceFreezeOfferState {
+    get
+    set
+    _modify
+  }
+  public var $state: Combine.Published<HCHotelsPriceFreeze.HCPriceFreezeOfferState>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
 }
 public enum HCPriceFreezeOfferState : Swift.Codable, Swift.Equatable {
   case loading
