@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Dv45g6przc9kxPpYY95+Ht10ou0=
+		tWw3Fmo5B+ulC0HdVkZsGEy8Pqo=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+7CHJq0Upbdw1vvYXrcNgbSHZhk=
+		9vonRkiIbwdg56F6C0X+KYLTzqE=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cforIKw6YPZ0U1wiGilvjiGK3gY=
+		kY6G2HuHSzfVvgwvAYpQJugEBMM=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+7CHJq0Upbdw1vvYXrcNgbSHZhk=
+		9vonRkiIbwdg56F6C0X+KYLTzqE=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FKuQoFGgj0Qntpz2F8N4H6b/MYo=
+		m4NQrAU3W3vZttXAZBLzZAcQq9o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6qqNARAuodXGBFddd4aSzQ95TbpSNOYdVILMhRs66jw=
+			zOIhEbOM5dXIVXjgl7CQzmbrPCJOWOKbYqZkGhtf4BE=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ex0jOZ2GMIrMPewJ5SquY7m/eU6s+NoUESYkdcakYU=
+			vG8886hcrWOCOZriG05FU65Yelz5viT1VyLLQLlDXMk=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6qqNARAuodXGBFddd4aSzQ95TbpSNOYdVILMhRs66jw=
+			zOIhEbOM5dXIVXjgl7CQzmbrPCJOWOKbYqZkGhtf4BE=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VnW/woQ5/r/9RvR/fZGN6QdaK0mecgBeygBoh9hBh1Y=
+			lSyIY7s/T+J3lKz0SdCoh3O8l7+EeHGHnbdpt4TH8AE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

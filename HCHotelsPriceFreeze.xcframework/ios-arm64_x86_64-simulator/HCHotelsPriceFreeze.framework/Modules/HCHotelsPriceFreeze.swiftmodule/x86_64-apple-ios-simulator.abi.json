@@ -5940,7 +5940,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.28\""
+      "value": "\"0.1.29\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
@@ -6205,48 +6205,48 @@
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 185,
-      "length": 22,
-      "value": "\",\"#%\/<>[]?@\\^:`{|}\""
+      "length": 23,
+      "value": "\",\"#%\/<>[]?@\\^:`{|}+\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 265,
+      "offset": 266,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 309,
+      "offset": 310,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 314,
+      "offset": 315,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 319,
+      "offset": 320,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 363,
+      "offset": 364,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Resources\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 419,
+      "offset": 420,
       "length": 3,
       "value": "0.2"
     }
