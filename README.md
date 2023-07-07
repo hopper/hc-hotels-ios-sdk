@@ -171,8 +171,9 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
                                     print("Offer Conditions: \(offer.conditions)")
                                     print("Offer frozenPrice: \(offer.conditions.frozenPrice)")
                                     print("Offer cap: \(offer.conditions.cap)")
-                                case .cancelled(let offer): // The user exited the purchase flow without purchasing
+                                case .cancelled(let offer, let whileLoading): // The user exited the purchase flow without purchasing
                                     print("Price Freeze purchase flow cancelled")
+                                    print("while it was loading: \(whileLoading)")
                                     print("Offer ID: \(offer.id)")
                                 default: // Other purchaseResult outcomes
                                     print("Error/Invalid purchaseResult: \(purchaseResult)")

@@ -105,7 +105,7 @@ public struct HCGuests : Swift.Codable, Swift.Hashable, Swift.Equatable {
 }
 public enum HCPriceFreezePurchaseResult : Swift.Codable, Swift.Equatable {
   case purchased(offer: HCHotelsPriceFreeze.HCExtOffer)
-  case cancelled(offer: HCHotelsPriceFreeze.HCExtOffer)
+  case cancelled(offer: HCHotelsPriceFreeze.HCExtOffer, whileLoading: Swift.Bool)
   case invalid
   case error(error: HCHotelsPriceFreeze.HCErrorInfo)
   public static func == (lhs: HCHotelsPriceFreeze.HCPriceFreezePurchaseResult, rhs: HCHotelsPriceFreeze.HCPriceFreezePurchaseResult) -> Swift.Bool

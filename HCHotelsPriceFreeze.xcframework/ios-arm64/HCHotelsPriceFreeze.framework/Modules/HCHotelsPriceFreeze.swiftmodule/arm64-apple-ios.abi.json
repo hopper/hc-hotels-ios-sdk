@@ -2369,12 +2369,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(HCHotelsPriceFreeze.HCPriceFreezePurchaseResult.Type) -> (HCHotelsPriceFreeze.HCExtOffer) -> HCHotelsPriceFreeze.HCPriceFreezePurchaseResult",
+                "printedName": "(HCHotelsPriceFreeze.HCPriceFreezePurchaseResult.Type) -> (HCHotelsPriceFreeze.HCExtOffer, Swift.Bool) -> HCHotelsPriceFreeze.HCPriceFreezePurchaseResult",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(HCHotelsPriceFreeze.HCExtOffer) -> HCHotelsPriceFreeze.HCPriceFreezePurchaseResult",
+                    "printedName": "(HCHotelsPriceFreeze.HCExtOffer, Swift.Bool) -> HCHotelsPriceFreeze.HCPriceFreezePurchaseResult",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2385,13 +2385,19 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(offer: HCHotelsPriceFreeze.HCExtOffer)",
+                        "printedName": "(offer: HCHotelsPriceFreeze.HCExtOffer, whileLoading: Swift.Bool)",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "HCExtOffer",
                             "printedName": "HCHotelsPriceFreeze.HCExtOffer",
                             "usr": "s:19HCHotelsPriceFreeze10HCExtOfferV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
                           }
                         ]
                       }
@@ -2414,8 +2420,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO9cancelledyAcA10HCExtOfferV_tcACmF",
-            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO9cancelledyAcA10HCExtOfferV_tcACmF",
+            "usr": "s:19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO9cancelledyAcA10HCExtOfferV_SbtcACmF",
+            "mangledName": "$s19HCHotelsPriceFreeze07HCPriceC14PurchaseResultO9cancelledyAcA10HCExtOfferV_SbtcACmF",
             "moduleName": "HCHotelsPriceFreeze",
             "declAttributes": [
               "RawDocComment"
@@ -5940,7 +5946,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.30\""
+      "value": "\"0.1.31\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
