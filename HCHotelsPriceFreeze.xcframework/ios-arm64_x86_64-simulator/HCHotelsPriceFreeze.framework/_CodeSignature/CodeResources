@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WUfxkuqZwxLXvbNCrp/j+k6g7DY=
+		mcwLck9XcoUEe89XFxqfeO9ml1Y=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		d3sSMoVjseqYgnY84xgIvbrc9pQ=
+		2avMo9L4os0FR7Hcm5DsHxMQRPo=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WUfxkuqZwxLXvbNCrp/j+k6g7DY=
+		mcwLck9XcoUEe89XFxqfeO9ml1Y=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lCKcrEvUtJ/E5WknCbolete2kKY=
+		HUGndLZLS0G88Kz27yOIwNQ1FOw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJ3s7wZoR7xhVqNUJTor7CZAb87wQnRpgo9ZPhdIKjQ=
+			v31fSVZpihhyHZOOT8AQ5w9fUswxk+sN2+4zXHUS7YQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K5MHjr/HV6sRIZNuaWfIKH3AmaPSs5qOyMoQLg7gyZc=
+			zy2nJ67b/oRqhlEEkNlR9AM09Vx+EIOhoIgnQ+ZvdA0=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZJ3s7wZoR7xhVqNUJTor7CZAb87wQnRpgo9ZPhdIKjQ=
+			v31fSVZpihhyHZOOT8AQ5w9fUswxk+sN2+4zXHUS7YQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GqQyXxVJemdRLNMrdEn3BbPRUC26FjFUcSWh+hvG+nc=
+			2aF4qr1M2xXo7IoD5oWJR8ktchhfNhLcdFrG4tgnP/Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -5946,7 +5946,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.31\""
+      "value": "\"0.1.32\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
@@ -6126,7 +6126,7 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/State\/HCStore.swift",
       "kind": "StringLiteral",
-      "offset": 3031,
+      "offset": 3175,
       "length": 10,
       "value": "\"HCHotelsPriceFreeze.WrappedKey\""
     },
