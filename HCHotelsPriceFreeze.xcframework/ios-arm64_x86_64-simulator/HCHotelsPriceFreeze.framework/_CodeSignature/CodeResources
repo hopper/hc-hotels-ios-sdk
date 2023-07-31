@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mcwLck9XcoUEe89XFxqfeO9ml1Y=
+		q61dQcAk5QiYUUndZvpe6wG7/1A=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Jsd9ebyMtA95WV1S+ilXJKtBw3w=
+		Qok/M1l+W1PbzouAoXzOFezirQo=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Jsd9ebyMtA95WV1S+ilXJKtBw3w=
+		Qok/M1l+W1PbzouAoXzOFezirQo=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2avMo9L4os0FR7Hcm5DsHxMQRPo=
+		1TtONGinaQ948I1Szr7BB9aoi84=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mcwLck9XcoUEe89XFxqfeO9ml1Y=
+		q61dQcAk5QiYUUndZvpe6wG7/1A=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SbgpQwKeBYnPnwxYMGOGs3ujrbU=
+		tvjApWdEsV8cb/YHtNfN03ysO/c=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SbgpQwKeBYnPnwxYMGOGs3ujrbU=
+		tvjApWdEsV8cb/YHtNfN03ysO/c=
 		</data>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HUGndLZLS0G88Kz27yOIwNQ1FOw=
+		1WBhIdMiRjO/AjYDNKPISMcrQP4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v31fSVZpihhyHZOOT8AQ5w9fUswxk+sN2+4zXHUS7YQ=
+			CMLkeSECNDytbPdQ/nO+kufB6KrkXA4VFwgUXu6tPPc=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3zWeo70KZqx/nJ6SNgRipBviDAEgvO7upKJyBTh6AAg=
+			DsXXS2CnH10RCKEms0j/0wgIxFVuSgor2122tcQ+9hQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3zWeo70KZqx/nJ6SNgRipBviDAEgvO7upKJyBTh6AAg=
+			DsXXS2CnH10RCKEms0j/0wgIxFVuSgor2122tcQ+9hQ=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zy2nJ67b/oRqhlEEkNlR9AM09Vx+EIOhoIgnQ+ZvdA0=
+			wBpR85gFVBiQuUqGHvJX/6fsCzKqFwr/FK+ayZiHadU=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v31fSVZpihhyHZOOT8AQ5w9fUswxk+sN2+4zXHUS7YQ=
+			CMLkeSECNDytbPdQ/nO+kufB6KrkXA4VFwgUXu6tPPc=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tSBuSNNgCtYrl/axLbOL5jYxfuw6DP2Jm7X9VRoZtFA=
+			Uzvov7E0qHsyd+14lEU+fFDyaIl7ks6ZW4L7aMEk43o=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tSBuSNNgCtYrl/axLbOL5jYxfuw6DP2Jm7X9VRoZtFA=
+			Uzvov7E0qHsyd+14lEU+fFDyaIl7ks6ZW4L7aMEk43o=
 			</data>
 		</dict>
 		<key>Modules/HCHotelsPriceFreeze.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2aF4qr1M2xXo7IoD5oWJR8ktchhfNhLcdFrG4tgnP/Q=
+			KJi8MW5nkOQrfK8MO9Pn+pKx5VCopOaexGkIi84OQ+A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

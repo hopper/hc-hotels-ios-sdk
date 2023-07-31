@@ -3485,6 +3485,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HCHotelsPriceFreeze"
+      },
+      {
+        "kind": "Import",
         "name": "os",
         "printedName": "os",
         "declKind": "Import",
@@ -5946,7 +5953,7 @@
       "kind": "StringLiteral",
       "offset": 288,
       "length": 8,
-      "value": "\"0.1.32\""
+      "value": "\"0.1.33\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/API\/Models\/HCApiEndpoint.swift",
@@ -6063,56 +6070,56 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 151,
+      "offset": 164,
       "length": 37,
       "value": "\"pubf78a0a6e00c46c5f03f09a96e79bb939\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 231,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 266,
+      "offset": 279,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 329,
       "length": 52,
       "value": "\"https:\/\/http-intake.logs.datadoghq.com\/api\/v2\/logs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 406,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 437,
       "length": 18,
       "value": "\"hc-hotels-pf-sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 468,
+      "offset": 481,
       "length": 7,
       "value": "\"Agoda\""
     },
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/Logging\/HCLogger.swift",
       "kind": "StringLiteral",
-      "offset": 503,
+      "offset": 516,
       "length": 26,
       "value": "\"[HCHotelsPriceFreezeSDK]\""
     },
@@ -6126,7 +6133,7 @@
     {
       "filePath": "\/Users\/runner\/work\/hc-hotels-ios-sdk\/hc-hotels-ios-sdk\/HCHotelsPriceFreezeSDK\/HCHotelsPriceFreeze\/Source\/Internal\/State\/HCStore.swift",
       "kind": "StringLiteral",
-      "offset": 3175,
+      "offset": 3195,
       "length": 10,
       "value": "\"HCHotelsPriceFreeze.WrappedKey\""
     },
