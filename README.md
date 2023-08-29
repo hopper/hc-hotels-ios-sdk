@@ -193,6 +193,9 @@ HCPriceFreezeButtonWrapper(roomDetails: roomDetails,
 
 ---
 ## Changelog
+### Version 0.1.34 (08-29-23)
+- Added `AccommodationType` as a new optional parameter for `Room`
+
 ### Version 0.1.11 (04-27-23)
 - Set session lifetime to 4 hours
 

@@ -54,6 +54,14 @@ public struct HCHotel : Swift.Codable, Swift.Hashable, Swift.Equatable {
   }
   public init(from decoder: Swift.Decoder) throws
 }
+public enum HCAccommodationType : Swift.String, Swift.Codable {
+  case hotel, non_hotel
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_Concurrency.MainActor(unsafe) public struct HCPriceFreezeButtonWrapper<Content> : SwiftUI.View where Content : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public init(roomDetails: HCHotelsPriceFreeze.HCRoomDetails, purchaseCallback: @escaping (HCHotelsPriceFreeze.HCPriceFreezePurchaseResult) -> Swift.Void, @SwiftUI.ViewBuilder button: @escaping (HCHotelsPriceFreeze.HCPriceFreezeOffer, @escaping () -> Swift.Void) -> Content)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -124,7 +132,7 @@ public struct HCAddress : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(from decoder: Swift.Decoder) throws
 }
 public struct HCRoom : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool, imageUrl: Swift.String, priceInclusive: Swift.String, extAttributes: Swift.Dictionary<Swift.String, Swift.String>)
+  public init(id: Swift.String, merchantId: Swift.String, merchantRoomId: Swift.String?, name: Swift.String, beds: Swift.Int, price: Swift.String, roomType: Swift.String, promotion: HCHotelsPriceFreeze.HCPromotion?, cancellationCode: Swift.String, rateCategoryId: Swift.String, addons: [Swift.String]?, availability: Swift.Int, isRefundable: Swift.Bool, imageUrl: Swift.String, priceInclusive: Swift.String, extAttributes: Swift.Dictionary<Swift.String, Swift.String>, accommodationType: HCHotelsPriceFreeze.HCAccommodationType?)
   public static func == (lhs: HCHotelsPriceFreeze.HCRoom, rhs: HCHotelsPriceFreeze.HCRoom) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: Swift.Encoder) throws
@@ -214,6 +222,9 @@ public struct HCOfferResponse : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+extension HCHotelsPriceFreeze.HCAccommodationType : Swift.Equatable {}
+extension HCHotelsPriceFreeze.HCAccommodationType : Swift.Hashable {}
+extension HCHotelsPriceFreeze.HCAccommodationType : Swift.RawRepresentable {}
 extension HCHotelsPriceFreeze.HCRefresh : Swift.Equatable {}
 extension HCHotelsPriceFreeze.HCRefresh : Swift.Hashable {}
 extension HCHotelsPriceFreeze.HCRefresh : Swift.RawRepresentable {}
